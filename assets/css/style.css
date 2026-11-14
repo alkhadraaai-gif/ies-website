@@ -229,3 +229,4 @@ html[lang="ar"] .office small{font-family:var(--f-body);font-size:13px}
 .gal figcaption{padding:10px 12px;font-size:13px;color:var(--mut)}
 @media(max-width:1080px){.gal{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:560px){.gal{grid-template-columns:1fr}.gal img{height:220px}}
+.panel:not(:has(img)){grid-template-columns:1fr}
