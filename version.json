@@ -1,8 +1,8 @@
 {
   "site": "Al-Khadraa IES Website",
   "id": "IES-26-001-WEB",
-  "revision": "R2",
-  "release_id": "IES-26-001-WEB-R2",
+  "revision": "R4",
+  "release_id": "IES-26-001-WEB-R4",
   "release_date": "2026-11-26",
   "status": "Test",
   "domain": "al-khadraa.ai",
@@ -22,8 +22,21 @@
     {
       "revision": "R2",
       "date": "2026-11-26",
-      "status": "Test",
+      "status": "Backup",
       "domain": "al-khadraa.ai"
+    },
+    {
+      "revision": "R3",
+      "date": "2026-11-26",
+      "status": "Active",
+      "domain": "al-khadraa.com"
+    },
+    {
+      "revision": "R4",
+      "date": "2026-11-26",
+      "status": "Test",
+      "domain": "al-khadraa.ai",
+      "notes": "SEO pass: structured data, OG tags, alt texts, descriptions, hreflang x-default, image compression"
     }
   ],
   "production": "al-khadraa.com remains on GoDaddy Website Builder (old site) until GoDaddy hosting is decided",
