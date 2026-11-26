@@ -1,0 +1,24 @@
+{
+  "site": "Al-Khadraa IES Website",
+  "id": "IES-26-001-WEB",
+  "revision": "R1",
+  "release_id": "IES-26-001-WEB-R1",
+  "release_date": "2026-11-26",
+  "status": "Active",
+  "domain": "al-khadraa.com",
+  "history": [
+    {
+      "revision": "R0",
+      "date": "2026-11-13",
+      "status": "Test",
+      "domain": "al-khadraa.ai"
+    },
+    {
+      "revision": "R1",
+      "date": "2026-11-26",
+      "status": "Active",
+      "domain": "al-khadraa.com"
+    }
+  ],
+  "repository": "github.com/alkhadraaai-gif/ies-website"
+}
