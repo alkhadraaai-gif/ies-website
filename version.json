@@ -34,7 +34,7 @@
     {
       "revision": "R4",
       "date": "2026-11-26",
-      "status": "Active",
+      "status": "Backup",
       "domain": "al-khadraa.com (GoDaddy hosting)",
       "notes": "SEO pass: structured data, OG tags, alt texts, descriptions, hreflang x-default, image compression"
     },
@@ -43,9 +43,9 @@
       "date": "2026-11-26",
       "status": "Test",
       "domain": "al-khadraa.ai",
-      "notes": "Service pages BMS & Fire Safety and PLC/SCADA/DCS (EN+AR) with FAQ and Service structured data; hours Sat-Thu 08:00-16:00; contact text Saturday to Thursday"
+      "notes": "Service pages BMS & Fire Safety and PLC/SCADA/DCS (EN+AR) with FAQ and Service structured data; hours Sat-Thu 08:00-16:00; contact text Saturday to Thursday; approved 26.11.2026 and Active on al-khadraa.com"
     }
   ],
-  "production": "al-khadraa.com on GoDaddy Web Hosting (cPanel), release IES-26-001-WEB-R4 Active",
+  "production": "al-khadraa.com on GoDaddy Web Hosting (cPanel), release IES-26-001-WEB-R5 Active",
   "repository": "github.com/alkhadraaai-gif/ies-website"
 }
