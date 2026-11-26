@@ -1,11 +1,12 @@
 {
   "site": "Al-Khadraa IES Website",
   "id": "IES-26-001-WEB",
-  "revision": "R2",
-  "release_id": "IES-26-001-WEB-R2",
+  "revision": "R3",
+  "release_id": "IES-26-001-WEB-R3",
   "release_date": "2026-11-26",
-  "status": "Test",
-  "domain": "al-khadraa.ai",
+  "status": "Active",
+  "domain": "al-khadraa.com",
+  "hosting": "GoDaddy Web Hosting Economy (cPanel)",
   "history": [
     {
       "revision": "R0",
@@ -17,15 +18,20 @@
       "revision": "R1",
       "date": "2026-11-26",
       "status": "Backup",
-      "domain": "al-khadraa.com (rolled back same day)"
+      "domain": "al-khadraa.com via GitHub (rolled back)"
     },
     {
       "revision": "R2",
       "date": "2026-11-26",
       "status": "Test",
       "domain": "al-khadraa.ai"
+    },
+    {
+      "revision": "R3",
+      "date": "2026-11-26",
+      "status": "Active",
+      "domain": "al-khadraa.com"
     }
   ],
-  "production": "al-khadraa.com remains on GoDaddy Website Builder (old site) until GoDaddy hosting is decided",
-  "repository": "github.com/alkhadraaai-gif/ies-website"
+  "repository": "github.com/alkhadraaai-gif/ies-website (branch production)"
 }
