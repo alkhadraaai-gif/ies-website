@@ -1,8 +1,8 @@
 {
   "site": "Al-Khadraa IES Website",
   "id": "IES-26-001-WEB",
-  "revision": "R3",
-  "release_id": "IES-26-001-WEB-R3",
+  "revision": "R4",
+  "release_id": "IES-26-001-WEB-R4",
   "release_date": "2026-11-26",
   "status": "Active",
   "domain": "al-khadraa.com",
@@ -23,14 +23,21 @@
     {
       "revision": "R2",
       "date": "2026-11-26",
-      "status": "Test",
+      "status": "Backup",
       "domain": "al-khadraa.ai"
     },
     {
       "revision": "R3",
       "date": "2026-11-26",
-      "status": "Active",
+      "status": "Backup",
       "domain": "al-khadraa.com"
+    },
+    {
+      "revision": "R4",
+      "date": "2026-11-26",
+      "status": "Active",
+      "domain": "al-khadraa.com",
+      "notes": "SEO pass"
     }
   ],
   "repository": "github.com/alkhadraaai-gif/ies-website (branch production)"

@@ -1,4 +1,4 @@
-# IES-26-001-WEB-R3
+# IES-26-001-WEB-R4
 RewriteEngine On
 # Force HTTPS (SSL active since 26.11.2026)
 RewriteCond %{HTTPS} off
