@@ -1,8 +1,8 @@
 {
   "site": "Al-Khadraa IES Website",
   "id": "IES-26-001-WEB",
-  "revision": "R5",
-  "release_id": "IES-26-001-WEB-R5",
+  "revision": "R6",
+  "release_id": "IES-26-001-WEB-R6",
   "release_date": "2026-11-26",
   "status": "Test",
   "domain": "al-khadraa.ai",
@@ -44,6 +44,13 @@
       "status": "Test",
       "domain": "al-khadraa.ai",
       "notes": "Service pages BMS & Fire Safety and PLC/SCADA/DCS (EN+AR) with FAQ and Service structured data; hours Sat-Thu 08:00-16:00; contact text Saturday to Thursday; approved 26.11.2026 and Active on al-khadraa.com"
+    },
+    {
+      "revision": "R6",
+      "date": "2026-11-26",
+      "status": "Test",
+      "domain": "al-khadraa.ai",
+      "notes": "Photos from the 2014 Mercury website archive: SCADA control centre on SCADA card and Telecom & SCADA tab; 8 new gallery photos (EN+AR)"
     }
   ],
   "production": "al-khadraa.com on GoDaddy Web Hosting (cPanel), release IES-26-001-WEB-R5 Active",
