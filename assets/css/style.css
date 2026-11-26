@@ -250,3 +250,16 @@ html[lang="ar"] .office small{font-family:var(--f-body);font-size:13px}
 @media (max-width:600px){.steps,.svc-proj{grid-template-columns:minmax(0,1fr)}}
 .bento.svc .card:last-child:not(.feature){grid-column:span 3}
 @media (max-width:900px){.bento.svc .card:last-child:not(.feature){grid-column:auto}}
+/* R5: Services drop-down */
+.dd{position:relative;display:flex;align-items:center}
+.dd-t span{font-size:11px;margin-inline-start:2px}
+.dd-m{display:none;position:absolute;top:100%;inset-inline-start:-12px;min-width:220px;background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:0 12px 32px rgba(7,19,31,.12);padding:8px;flex-direction:column;z-index:60}
+.dd-m a{padding:10px 12px;border-radius:8px;white-space:nowrap}
+.dd-m a:hover{background:#E6EFF8}
+.dd:hover .dd-m,.dd:focus-within .dd-m{display:flex}
+@media (max-width:1080px){
+  .dd{flex-direction:column;align-items:stretch}
+  .dd-m{display:flex;position:static;box-shadow:none;border:0;padding:0 0 0 16px;min-width:0;background:transparent}
+  [dir=rtl] .dd-m{padding:0 16px 0 0}
+  .dd-m a{border-radius:0}
+}
