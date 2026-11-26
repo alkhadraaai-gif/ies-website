@@ -1,12 +1,11 @@
 {
   "site": "Al-Khadraa IES Website",
   "id": "IES-26-001-WEB",
-  "revision": "R4",
-  "release_id": "IES-26-001-WEB-R4",
+  "revision": "R5",
+  "release_id": "IES-26-001-WEB-R5",
   "release_date": "2026-11-26",
   "status": "Active",
   "domain": "al-khadraa.com",
-  "hosting": "GoDaddy Web Hosting Economy (cPanel)",
   "history": [
     {
       "revision": "R0",
@@ -18,7 +17,7 @@
       "revision": "R1",
       "date": "2026-11-26",
       "status": "Backup",
-      "domain": "al-khadraa.com via GitHub (rolled back)"
+      "domain": "al-khadraa.com (rolled back same day)"
     },
     {
       "revision": "R2",
@@ -35,10 +34,18 @@
     {
       "revision": "R4",
       "date": "2026-11-26",
+      "status": "Backup",
+      "domain": "al-khadraa.com (GoDaddy hosting)",
+      "notes": "SEO pass: structured data, OG tags, alt texts, descriptions, hreflang x-default, image compression"
+    },
+    {
+      "revision": "R5",
+      "date": "2026-11-26",
       "status": "Active",
-      "domain": "al-khadraa.com",
-      "notes": "SEO pass"
+      "domain": "al-khadraa.com (GoDaddy hosting)",
+      "notes": "Service pages BMS & Fire Safety and PLC/SCADA/DCS (EN+AR) with FAQ and Service structured data; hours Sat-Thu 08:00-16:00; contact text Saturday to Thursday; approved by Ali 26.11.2026"
     }
   ],
-  "repository": "github.com/alkhadraaai-gif/ies-website (branch production)"
+  "production": "al-khadraa.com on GoDaddy Web Hosting (cPanel), release IES-26-001-WEB-R5 Active",
+  "repository": "github.com/alkhadraaai-gif/ies-website"
 }

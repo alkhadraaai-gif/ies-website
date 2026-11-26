@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://al-khadraa.com/</loc><lastmod>2026-11-26</lastmod></url>
-<url><loc>https://al-khadraa.com/projects.html</loc><lastmod>2026-11-26</lastmod></url>
-<url><loc>https://al-khadraa.com/ar/</loc><lastmod>2026-11-26</lastmod></url>
-<url><loc>https://al-khadraa.com/ar/projects.html</loc><lastmod>2026-11-26</lastmod></url>
+  <url><loc>https://al-khadraa.com/</loc><lastmod>2026-11-26</lastmod><priority>1.0</priority></url>
+  <url><loc>https://al-khadraa.com/plc-scada-automation.html</loc><lastmod>2026-11-26</lastmod><priority>0.9</priority></url>
+  <url><loc>https://al-khadraa.com/bms-fire-safety.html</loc><lastmod>2026-11-26</lastmod><priority>0.9</priority></url>
+  <url><loc>https://al-khadraa.com/projects.html</loc><lastmod>2026-11-26</lastmod><priority>0.8</priority></url>
+  <url><loc>https://al-khadraa.com/ar/</loc><lastmod>2026-11-26</lastmod><priority>0.9</priority></url>
+  <url><loc>https://al-khadraa.com/ar/plc-scada-automation.html</loc><lastmod>2026-11-26</lastmod><priority>0.8</priority></url>
+  <url><loc>https://al-khadraa.com/ar/bms-fire-safety.html</loc><lastmod>2026-11-26</lastmod><priority>0.8</priority></url>
+  <url><loc>https://al-khadraa.com/ar/projects.html</loc><lastmod>2026-11-26</lastmod><priority>0.7</priority></url>
 </urlset>

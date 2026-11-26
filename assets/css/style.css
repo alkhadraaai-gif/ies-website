@@ -230,3 +230,36 @@ html[lang="ar"] .office small{font-family:var(--f-body);font-size:13px}
 @media(max-width:1080px){.gal{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:560px){.gal{grid-template-columns:1fr}.gal img{height:220px}}
 .panel:not(:has(img)){grid-template-columns:1fr}
+/* R5: service pages */
+.steps{list-style:none;margin:40px 0 0;padding:0;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:16px}
+.steps li{border-top:2px solid var(--green);padding-top:16px;display:flex;flex-direction:column;gap:6px}
+.steps b{font-family:var(--f-mono);font-size:13px;color:var(--green)}
+.steps strong{color:#fff;font-size:17px}
+.steps span{font-size:14px;color:var(--txt-d);line-height:1.45}
+.svc-proj{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.svc-proj .pcard.noimg{border:1px solid var(--line);border-radius:16px;padding:24px;justify-content:flex-start}
+.faq{max-width:860px;display:flex;flex-direction:column;gap:12px}
+.faq h2{margin:4px 0 16px}
+.faq details{border:1px solid var(--line);border-radius:14px;background:#fff;padding:18px 22px}
+.faq summary{cursor:pointer;font-weight:600;font-size:17px}
+.faq details p{margin:12px 0 0;color:var(--mut)}
+.cta-band .ctas{align-items:center}
+.card .more{font-weight:600;color:var(--blue);font-size:14px}
+.card.feature .more{color:var(--green)}
+@media (max-width:1080px){.steps{grid-template-columns:repeat(3,minmax(0,1fr))}.svc-proj{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:600px){.steps,.svc-proj{grid-template-columns:minmax(0,1fr)}}
+.bento.svc .card:last-child:not(.feature){grid-column:span 3}
+@media (max-width:900px){.bento.svc .card:last-child:not(.feature){grid-column:auto}}
+/* R5: Services drop-down */
+.dd{position:relative;display:flex;align-items:center}
+.dd-t span{font-size:11px;margin-inline-start:2px}
+.dd-m{display:none;position:absolute;top:100%;inset-inline-start:-12px;min-width:220px;background:#fff;border:1px solid var(--line);border-radius:12px;box-shadow:0 12px 32px rgba(7,19,31,.12);padding:8px;flex-direction:column;z-index:60}
+.dd-m a{padding:10px 12px;border-radius:8px;white-space:nowrap}
+.dd-m a:hover{background:#E6EFF8}
+.dd:hover .dd-m,.dd:focus-within .dd-m{display:flex}
+@media (max-width:1080px){
+  .dd{flex-direction:column;align-items:stretch}
+  .dd-m{display:flex;position:static;box-shadow:none;border:0;padding:0 0 0 16px;min-width:0;background:transparent}
+  [dir=rtl] .dd-m{padding:0 16px 0 0}
+  .dd-m a{border-radius:0}
+}
