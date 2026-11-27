@@ -57,7 +57,7 @@
       "date": "2026-11-27",
       "status": "Test",
       "domain": "al-khadraa.ai",
-      "notes": "IES Store Phase 1 (quote-only) at /store and /ar/store: 85 published warehouse items, 70 Supmea models, 196 legacy DCS/PLC spares; RFQ cart; Store link in menus"
+      "notes": "IES Store Phase 1 (quote-only) at /store and /ar/store: 85 published warehouse items, 70 Supmea models, 196 legacy DCS/PLC spares; RFQ cart; Store link in menus; R7.1 (27.11.2026): Industrial / Building divisions, product pictures (Siemens + Supmea manufacturer images, placeholders for other legacy brands)"
     }
   ],
   "production": "al-khadraa.com on GoDaddy Web Hosting (cPanel), release IES-26-001-WEB-R6 Active",

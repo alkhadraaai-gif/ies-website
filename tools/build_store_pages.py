@@ -17,9 +17,10 @@ T = {
   h1='Automation parts, found and quoted <span style="color:var(--green)">in one working day.</span>',
   lead='Search IES stock in Baghdad, configure Supmea process instruments, or paste a list of legacy DCS / PLC part numbers. Build one request and our engineers reply with a quotation.',
   ph='Search part number, model or description…', console='parts.query', ready='ready',
-  chips=[('6ES7','stock'),('ET 200','stock'),('Desigo','stock'),('Radar','supmea'),('Pressure','supmea'),('Triconex','source'),('Mark VI','source')],
+  chips=[('6ES7','ind:ctl'),('ET 200','ind:ctl'),('Radar','ind:ins'),('Triconex','ind:spr'),('Desigo','bld:bms'),('KNX','bld:knx'),('Detector','bld:fire')],
   k1='Items in Baghdad stock', k2='Supmea models', k3='Legacy spares listed', k1e='Ready', k2e='Import', k3e='Sourcing',
   trust=['Prices in the quotation (USD / IQD)','Payment: Qi Card transfer, bank transfer or PO','Delivery across Iraq'],
+  d_ind='Industrial', d_ind_s='Control systems · Instruments · Legacy spares', d_bld='Building', d_bld_s='BMS · KNX · Fire alarm · Instruments', items='items',
   t_stock='In stock · Baghdad', t_sup='Supmea instruments', t_src='Legacy DCS / PLC spares', grid='Grid view', list='List view',
   filters='Filters', clear='Clear filters', cat='Category', cond='Condition', life='Lifecycle', sort='Sort',
   s_rel='Best match', s_pn='Part number A–Z', s_qty='Most available', more='Show more',
@@ -47,9 +48,10 @@ T = {
   h1='قطع الأتمتة، نجدها ونسعّرها <span style="color:var(--green)">خلال يوم عمل واحد.</span>',
   lead='ابحث في مخزن IES في بغداد، أو اختر مواصفات أجهزة Supmea، أو الصق قائمة بأرقام قطع DCS / PLC القديمة. أنشئ طلباً واحداً ويرد مهندسونا بعرض سعر.',
   ph='ابحث برقم القطعة أو الموديل أو الوصف…', console='parts.query', ready='جاهز',
-  chips=[('6ES7','stock'),('ET 200','stock'),('Desigo','stock'),('Radar','supmea'),('Pressure','supmea'),('Triconex','source'),('Mark VI','source')],
+  chips=[('6ES7','ind:ctl'),('ET 200','ind:ctl'),('Radar','ind:ins'),('Triconex','ind:spr'),('Desigo','bld:bms'),('KNX','bld:knx'),('Detector','bld:fire')],
   k1='مادة في مخزن بغداد', k2='موديل Supmea', k3='قطعة غيار مدرجة', k1e='جاهز', k2e='استيراد', k3e='توفير',
   trust=['الأسعار في عرض السعر (دولار / دينار)','الدفع: تحويل كي كارد أو تحويل مصرفي أو أمر شراء','التوصيل إلى جميع محافظات العراق'],
+  d_ind='القطاع الصناعي', d_ind_s='أنظمة التحكم · أجهزة القياس · قطع الغيار القديمة', d_bld='قطاع المباني', d_bld_s='BMS · KNX · إنذار الحريق · أجهزة القياس', items='مادة',
   t_stock='متوفر في مخزن بغداد', t_sup='أجهزة Supmea', t_src='قطع غيار DCS / PLC القديمة', grid='عرض شبكي', list='عرض قائمة',
   filters='الفلاتر', clear='مسح الفلاتر', cat='الفئة', cond='الحالة', life='دورة حياة المنتج', sort='الترتيب',
   s_rel='الأكثر تطابقاً', s_pn='رقم القطعة أ–ي', s_qty='الأكثر توفراً', more='عرض المزيد',
@@ -81,7 +83,7 @@ def page(lang):
     nav = ''.join(f'<a href="{L(h)}"' + (' aria-current="page"' if h == 'store/' else '') + f'>{n}</a>' for n, h in t['nav'])
     fnav = ''.join(f'<a href="{L(h)}">{n}</a>' for n, h in t['fnav'])
     chips = ''.join(f'<button type="button" data-chip="{c}" data-to="{to}">{c}</button>' for c, to in t['chips'])
-    fam = ''.join(f'<button class="ftab" type="button" data-fam="{k}" aria-pressed="{"true" if k=="all" else "false"}">{n}</button>' for k, n in t['fam'])
+    fam = '' and ''.join(f'<button class="ftab" type="button" data-fam="{k}" aria-pressed="{"true" if k=="all" else "false"}">{n}</button>' for k, n in t['fam'])
     how = ''.join(f'<li>{x}</li>' for x in t['how'])
     trust = ''.join(f'<span>{x}</span>' for x in t['trust'])
     robots = '<meta name="robots" content="noindex, nofollow">\n' if noindex else ''
@@ -148,19 +150,22 @@ def page(lang):
 <div class="qchips">{chips}</div>
 </div>
 <div class="kpis">
-<button class="kpi" type="button" data-jump="stock"><em>{t['k1e']}</em><strong id="k-stock">–</strong><small>{t['k1']}</small></button>
-<button class="kpi" type="button" data-jump="supmea"><em>{t['k2e']}</em><strong id="k-sup">–</strong><small>{t['k2']}</small></button>
-<button class="kpi" type="button" data-jump="source"><em>{t['k3e']}</em><strong id="k-src">–</strong><small>{t['k3']}</small></button>
+<button class="kpi" type="button" data-jump="ind:ctl"><em>{t['k1e']}</em><strong id="k-stock">–</strong><small>{t['k1']}</small></button>
+<button class="kpi" type="button" data-jump="ind:ins"><em>{t['k2e']}</em><strong id="k-sup">–</strong><small>{t['k2']}</small></button>
+<button class="kpi" type="button" data-jump="ind:spr"><em>{t['k3e']}</em><strong id="k-src">–</strong><small>{t['k3']}</small></button>
 </div>
 </div>
 </div>
 </section>
 
-<div class="srcbar" id="catalog">
-<div class="wrap" role="tablist">
-<button class="src" type="button" role="tab" data-src="stock" aria-selected="true">{t['t_stock']} <b id="c-stock">–</b></button>
-<button class="src" type="button" role="tab" data-src="supmea" aria-selected="false">{t['t_sup']} <b id="c-supmea">–</b></button>
-<button class="src" type="button" role="tab" data-src="source" aria-selected="false">{t['t_src']} <b id="c-source">–</b></button>
+<section class="divs" id="catalog" aria-label="Divisions">
+<div class="wrap divrow">
+<button class="div ind" type="button" data-div="ind" aria-selected="true"><span class="dv-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 21h20M4 21V10l5 3V10l5 3V6l6 4v11"/><path d="M8 17h1M12 17h1M16 17h1"/></svg></span><span class="dv-t"><b>{t['d_ind']}</b><small>{t['d_ind_s']}</small></span><span class="dn">–</span></button>
+<button class="div bld" type="button" data-div="bld" aria-selected="false"><span class="dv-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="1"/><path d="M8 6h2M14 6h2M8 10h2M14 10h2M8 14h2M14 14h2M10 22v-4h4v4"/></svg></span><span class="dv-t"><b>{t['d_bld']}</b><small>{t['d_bld_s']}</small></span><span class="dn">–</span></button>
+</div>
+</section>
+<div class="srcbar">
+<div class="wrap"><div id="secTabs" role="tablist" style="display:flex;gap:8px"></div>
 <span class="sp"></span>
 <div class="view-tg"><button type="button" data-view="grid" aria-label="{t['grid']}" title="{t['grid']}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg></button><button type="button" data-view="list" aria-label="{t['list']}" title="{t['list']}"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg></button></div>
 </div>
@@ -168,33 +173,7 @@ def page(lang):
 
 <section class="st-main">
 <div class="wrap">
-
-<div class="pane" id="pane-stock">
-<div class="st-grid">
-<aside class="facets" aria-label="{t['filters']}">
-<div style="display:flex;justify-content:space-between;align-items:center"><button class="clear-f" type="button" data-clear>{t['clear']}</button><button class="clear-f fbtn-m" type="button" id="fClose">✕</button></div>
-<div class="facet"><h4>{t['cat']}</h4><div id="f-cat"></div></div>
-<div class="facet"><h4>{t['cond']}</h4><div id="f-cond"></div></div>
-<div class="facet"><h4>{t['life']}</h4><div id="f-life"></div></div>
-</aside>
-<div>
-<p class="fam-note">{t['stock_note']}</p>
-<div class="resbar"><span class="count" id="stockCount"></span><span style="display:flex;gap:8px"><button class="btn btn-l fbtn-m" type="button" id="fOpen" style="padding:8px 14px;min-height:42px">{t['filters']}</button>
-<select id="sort" aria-label="{t['sort']}"><option value="rel">{t['s_rel']}</option><option value="pn">{t['s_pn']}</option><option value="qty">{t['s_qty']}</option></select></span></div>
-<div class="pgrid2" id="stockGrid"></div>
-<div class="more-btn"><button class="btn btn-l" type="button" id="moreBtn" hidden>{t['more']}</button></div>
-</div>
-</div>
-</div>
-
-<div class="pane" id="pane-supmea" hidden>
-<p class="fam-note">{t['sup_note']}</p>
-<div class="fam-tabs" id="famTabs">{fam}</div>
-<div class="pgrid2" id="supGrid"></div>
-</div>
-
-<div class="pane" id="pane-source" hidden>
-<div class="srcx" style="margin-bottom:32px">
+<div class="srcx" id="bomPanel" hidden style="margin-bottom:32px">
 <div class="panel2">
 <h3>{t['bom_h']}</h3>
 <p>{t['bom_p']}</p>
@@ -211,18 +190,17 @@ def page(lang):
 </div>
 <div class="st-grid">
 <aside class="facets" aria-label="{t['filters']}">
-<div class="facet"><h4>{t['brand']}</h4><div id="sf-b"></div></div>
-<div class="facet"><h4>{t['cat']}</h4><div id="sf-c"></div></div>
+<div style="display:flex;justify-content:space-between;align-items:center"><button class="clear-f" type="button" data-clear>{t['clear']}</button><button class="clear-f fbtn-m" type="button" id="fClose">✕</button></div>
+<div id="facetBox"></div>
 </aside>
 <div>
-<p class="fam-note">{t['src_note']}</p>
-<div class="resbar"><span class="count" id="spCount"></span></div>
-<div class="pgrid2" id="spGrid"></div>
-<div class="more-btn"><button class="btn btn-l" type="button" id="spMore" hidden>{t['more']}</button></div>
+<p class="fam-note" id="secNote"></p>
+<div class="resbar"><span class="count" id="count"></span><span style="display:flex;gap:8px"><button class="btn btn-l fbtn-m" type="button" id="fOpen" style="padding:8px 14px;min-height:42px">{t['filters']}</button>
+<select id="sort" aria-label="{t['sort']}"><option value="rel">{t['s_rel']}</option><option value="pn">{t['s_pn']}</option><option value="qty">{t['s_qty']}</option></select></span></div>
+<div class="pgrid2" id="grid"></div>
+<div class="more-btn"><button class="btn btn-l" type="button" id="moreBtn" hidden>{t['more']}</button></div>
 </div>
 </div>
-</div>
-
 </div>
 </section>
 </main>
@@ -233,7 +211,7 @@ def page(lang):
 <div class="dr-h"><div><h2>{t['rfq']}</h2><div class="rid" id="rid"></div></div><button class="x" type="button" aria-label="{t['close']}">×</button></div>
 <div class="dr-b">
 <div class="done-box" id="done" hidden></div>
-<div class="empty-cart" id="cartEmpty"><p>{t['empty']}</p><button class="btn btn-d" type="button" data-jump="stock">{t['browse']}</button></div>
+<div class="empty-cart" id="cartEmpty"><p>{t['empty']}</p><button class="btn btn-d" type="button" data-jump="ind:ctl">{t['browse']}</button></div>
 <div class="lines" id="lines"></div>
 <form class="dr-f" id="cartForm" hidden onsubmit="return false">
 <label>{t['company']}<input name="company" required autocomplete="organization"></label>
