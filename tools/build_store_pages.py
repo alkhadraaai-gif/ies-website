@@ -3,7 +3,7 @@
 Usage: build_store_pages.py <repo> <base_url> <release_id> <status Test|Active> <noindex 1|0>"""
 import sys, os, datetime
 repo, base, rel, status, noindex = sys.argv[1], sys.argv[2].rstrip('/'), sys.argv[3], sys.argv[4], sys.argv[5] == '1'
-V = rel.split('-')[-1].lower()  # cache tag e.g. r7
+V = rel.split("-")[-1].lower() + (sys.argv[6] if len(sys.argv) > 6 else "")  # cache tag e.g. r7
 today = datetime.date.today().isoformat()
 
 T = {
