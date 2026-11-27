@@ -1,0 +1,2964 @@
+{
+ "supmea": [
+  {
+   "m": "LDG-SUP",
+   "fam": "flow",
+   "n": "Electromagnetic flowmeter",
+   "s": [
+    "DN10–DN2000",
+    "±0.5 %",
+    "Conductive liquids > 50 µS/cm",
+    "0.6–4.0 MPa"
+   ],
+   "opt": {
+    "size": "DN",
+    "out": [
+     "4–20 mA + pulse",
+     "4–20 mA HART",
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "Flange EN PN16",
+     "Flange ASME Cl.150",
+     "Wafer"
+    ]
+   },
+   "lead": "3–5",
+   "ds": "https://www.supmeaauto.com/uploads-lm/2408/ldg-sup-electromagnetic-flowmeter-datasheet.pdf"
+  },
+  {
+   "m": "FMC240",
+   "fam": "flow",
+   "n": "Electromagnetic flowmeter (compact)",
+   "s": [
+    "DN10–DN1000",
+    "±0.5 %",
+    "Liquids > 30 µS/cm",
+    "0.6–1.6 MPa"
+   ],
+   "opt": {
+    "size": "DN",
+    "out": [
+     "4–20 mA + pulse",
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "Flange EN PN16",
+     "Flange ASME Cl.150"
+    ]
+   },
+   "lead": "3–5"
+  },
+  {
+   "m": "LWGY-SUP",
+   "fam": "flow",
+   "n": "Liquid turbine flowmeter",
+   "s": [
+    "DN4–DN200",
+    "±0.5 % / ±1 %",
+    "Water, oil, clean liquids",
+    "0.6–4.0 MPa"
+   ],
+   "opt": {
+    "size": "DN",
+    "out": [
+     "Pulse",
+     "4–20 mA",
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "Thread",
+     "Flange"
+    ]
+   },
+   "lead": "3–5",
+   "ds": "https://www.supmeaauto.com/uploads-lm/2407/sup-lwgy--c-turbine-flow-meter-yh-datasheet.pdf"
+  },
+  {
+   "m": "LUGB-SUP",
+   "fam": "flow",
+   "n": "Vortex flowmeter",
+   "s": [
+    "DN15–DN300",
+    "±1.5 %",
+    "Gas, liquid, steam",
+    "1.0–2.5 MPa"
+   ],
+   "opt": {
+    "size": "DN",
+    "out": [
+     "4–20 mA",
+     "4–20 mA HART",
+     "Pulse"
+    ],
+    "conn": [
+     "Flange",
+     "Wafer"
+    ]
+   },
+   "lead": "3–5",
+   "ds": "https://www.supmeaauto.com/uploads/2310/sup-lugb-vortex-flow-meter-datasheet.pdf"
+  },
+  {
+   "m": "SUP-MF",
+   "fam": "flow",
+   "n": "Thermal gas mass flowmeter",
+   "s": [
+    "DN65–DN1000",
+    "±2.5 %",
+    "Gas",
+    "Range ratio 1:100"
+   ],
+   "opt": {
+    "size": "DN",
+    "out": [
+     "4–20 mA",
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "Insertion",
+     "Flange"
+    ]
+   },
+   "lead": "3–5",
+   "ds": "https://www.supmeaauto.com/uploads-lm/2407/sup-mf.pdf"
+  },
+  {
+   "m": "SUP-1158S",
+   "fam": "flow",
+   "n": "Clamp-on ultrasonic flowmeter",
+   "s": [
+    "DN32–DN1200",
+    "±1.0 %",
+    "Water, clean liquids",
+    "No pipe cutting"
+   ],
+   "opt": {
+    "size": "DN",
+    "out": [
+     "4–20 mA + pulse",
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "Clamp-on transducers"
+    ]
+   },
+   "lead": "2–4",
+   "eval": true,
+   "ds": "https://www.supmeaauto.com/uploads-lm/2407/sup-1158s-ultrasonic-flow-meter-datasheet.pdf"
+  },
+  {
+   "m": "LZ-SUP",
+   "fam": "flow",
+   "n": "Variable area flowmeter",
+   "s": [
+    "DN15–DN200",
+    "±1.5 % / ±1 %",
+    "Liquid, gas",
+    "Up to 4.0 MPa"
+   ],
+   "opt": {
+    "size": "DN",
+    "out": [
+     "Local indicator",
+     "4–20 mA",
+     "Alarm switches"
+    ],
+    "conn": [
+     "Flange"
+    ]
+   },
+   "lead": "3–5",
+   "ds": "https://www.supmeaauto.com/uploads-lm/2505/rotameter-datasheet-7808.pdf"
+  },
+  {
+   "m": "FCC300",
+   "fam": "flow",
+   "n": "Coriolis mass flowmeter",
+   "s": [
+    "DN8–DN150",
+    "Flow 0.1–0.5 class",
+    "Density ±0.002 g/cm³",
+    "Up to 4.0 MPa"
+   ],
+   "opt": {
+    "size": "DN",
+    "out": [
+     "4–20 mA HART + pulse",
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "Flange"
+    ]
+   },
+   "lead": "4–6",
+   "ds": "https://www.supmeaauto.com/uploads-lm/2505/sup-fcc300-datasheet-7359.pdf"
+  },
+  {
+   "m": "SUP-WSR550",
+   "fam": "level",
+   "n": "80 GHz radar level transmitter",
+   "s": [
+    "1–60 m",
+    "±2 mm (liquid)",
+    "76–81 GHz FMCW, 3° beam",
+    "IP67, -40…150 °C"
+   ],
+   "opt": {
+    "range": [
+     "10 m",
+     "20 m",
+     "30 m",
+     "60 m"
+    ],
+    "out": [
+     "2-wire 4–20 mA HART",
+     "4-wire 4–20 mA + RS485"
+    ],
+    "conn": [
+     "Thread G1½",
+     "Thread G3½",
+     "Flange EN PN16",
+     "Flange ASME Cl.150"
+    ]
+   },
+   "lead": "3–5",
+   "eval": true
+  },
+  {
+   "m": "SUP-WSR201",
+   "fam": "level",
+   "n": "60 GHz radar level gauge (water)",
+   "s": [
+    "5 / 10 / 15 m",
+    "±5 mm",
+    "Water tanks, sumps, channels",
+    "IP68, Bluetooth set-up"
+   ],
+   "opt": {
+    "range": [
+     "5 m",
+     "10 m",
+     "15 m"
+    ],
+    "out": [
+     "2-wire 4–20 mA + Bluetooth",
+     "4-wire 4–20 mA + RS485 + Bluetooth"
+    ],
+    "conn": [
+     "Thread G2"
+    ]
+   },
+   "lead": "2–4",
+   "eval": true
+  },
+  {
+   "m": "SUP-RD902",
+   "fam": "level",
+   "n": "26 GHz radar level meter",
+   "s": [
+    "0–30 m",
+    "±5–15 mm",
+    "Liquids, -40…250 °C",
+    "IP67"
+   ],
+   "opt": {
+    "range": [
+     "10 m",
+     "20 m",
+     "30 m"
+    ],
+    "out": [
+     "2-wire 4–20 mA HART",
+     "4-wire 4–20 mA"
+    ],
+    "conn": [
+     "Thread",
+     "Flange"
+    ]
+   },
+   "lead": "3–5"
+  },
+  {
+   "m": "SUP-RD903",
+   "fam": "level",
+   "n": "26 GHz radar level meter (solids)",
+   "s": [
+    "0–70 m",
+    "±15 mm",
+    "Solids, silos",
+    "IP67"
+   ],
+   "opt": {
+    "range": [
+     "30 m",
+     "50 m",
+     "70 m"
+    ],
+    "out": [
+     "2-wire 4–20 mA HART",
+     "4-wire 4–20 mA"
+    ],
+    "conn": [
+     "Flange"
+    ]
+   },
+   "lead": "3–5"
+  },
+  {
+   "m": "SUP-RD701",
+   "fam": "level",
+   "n": "Guided wave radar level meter",
+   "s": [
+    "0–30 m",
+    "±10 mm",
+    "-40…250 °C",
+    "IP67"
+   ],
+   "opt": {
+    "range": [
+     "6 m",
+     "10 m",
+     "20 m",
+     "30 m"
+    ],
+    "out": [
+     "2-wire 4–20 mA HART",
+     "4-wire 4–20 mA"
+    ],
+    "conn": [
+     "Thread",
+     "Flange"
+    ]
+   },
+   "lead": "3–5"
+  },
+  {
+   "m": "SUP-MP",
+   "fam": "level",
+   "n": "Ultrasonic level transmitter",
+   "s": [
+    "0–10 m",
+    "±0.5 % FS",
+    "-20…70 °C medium",
+    "Display"
+   ],
+   "opt": {
+    "range": [
+     "5 m",
+     "10 m"
+    ],
+    "out": [
+     "2-wire 4–20 mA",
+     "4–20 mA + RS485 + 2 relays"
+    ],
+    "conn": [
+     "Thread G2"
+    ]
+   },
+   "lead": "2–4",
+   "eval": true
+  },
+  {
+   "m": "SUP-P260",
+   "fam": "level",
+   "n": "Submersible level transmitter",
+   "s": [
+    "0–200 m",
+    "±0.5 % FS",
+    "12–30 VDC",
+    "Wells, tanks, rivers"
+   ],
+   "opt": {
+    "range": [
+     "0–5 m",
+     "0–10 m",
+     "0–20 m",
+     "0–50 m"
+    ],
+    "out": [
+     "4–20 mA",
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "Cable (state length)"
+    ]
+   },
+   "lead": "2–4"
+  },
+  {
+   "m": "SUP-P300",
+   "fam": "press",
+   "n": "Pressure transmitter",
+   "s": [
+    "-0.1…60 MPa",
+    "4–20 mA / RS485",
+    "8–32 VDC",
+    "IP65"
+   ],
+   "opt": {
+    "range": "RANGE",
+    "out": [
+     "4–20 mA",
+     "0–10 V",
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "½\" NPT",
+     "M20×1.5",
+     "G¼"
+    ]
+   },
+   "lead": "2–4",
+   "eval": true
+  },
+  {
+   "m": "SUP-PX300",
+   "fam": "press",
+   "n": "Pressure transmitter with display",
+   "s": [
+    "-0.1…60 MPa",
+    "4–20 mA / RS485",
+    "12–36 VDC",
+    "IP65, LED display"
+   ],
+   "opt": {
+    "range": "RANGE",
+    "out": [
+     "4–20 mA",
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "½\" NPT",
+     "M20×1.5"
+    ]
+   },
+   "lead": "2–4"
+  },
+  {
+   "m": "SUP-P300G",
+   "fam": "press",
+   "n": "High-temperature pressure transmitter",
+   "s": [
+    "-0.1…60 MPa",
+    "Medium 0–200 °C",
+    "24 VDC",
+    "IP65"
+   ],
+   "opt": {
+    "range": "RANGE",
+    "out": [
+     "4–20 mA"
+    ],
+    "conn": [
+     "½\" NPT",
+     "M20×1.5"
+    ]
+   },
+   "lead": "2–4"
+  },
+  {
+   "m": "SUP-P3000",
+   "fam": "press",
+   "n": "Monocrystalline silicon pressure transmitter",
+   "s": [
+    "-0.1…60 MPa",
+    "4–20 mA HART",
+    "LCD",
+    "IP67"
+   ],
+   "opt": {
+    "range": "RANGE",
+    "out": [
+     "4–20 mA HART"
+    ],
+    "conn": [
+     "½\" NPT",
+     "M20×1.5",
+     "Flange"
+    ]
+   },
+   "lead": "3–5"
+  },
+  {
+   "m": "SUP-2051",
+   "fam": "press",
+   "n": "Differential pressure transmitter",
+   "s": [
+    "-100 kPa…3 MPa DP",
+    "4–20 mA HART",
+    "LCD",
+    "IP67"
+   ],
+   "opt": {
+    "range": "RANGE",
+    "out": [
+     "4–20 mA HART"
+    ],
+    "conn": [
+     "¼\" NPT flange adapters",
+     "Remote seals"
+    ]
+   },
+   "lead": "3–5"
+  },
+  {
+   "m": "SUP-Y290",
+   "fam": "press",
+   "n": "Digital pressure gauge",
+   "s": [
+    "-0.1…60 MPa",
+    "Battery powered",
+    "Local display",
+    "IP65"
+   ],
+   "opt": {
+    "range": "RANGE",
+    "out": [
+     "Local display only"
+    ],
+    "conn": [
+     "G¼",
+     "M20×1.5",
+     "½\" NPT"
+    ]
+   },
+   "lead": "2–4"
+  },
+  {
+   "m": "SUP-WZPK",
+   "fam": "temp",
+   "n": "Pt100 RTD sensor, head-mounted",
+   "s": [
+    "-200…450 °C",
+    "Pt100",
+    "Optional head transmitter",
+    "Thermowell on request"
+   ],
+   "opt": {
+    "range": [
+     "0–100 °C",
+     "0–200 °C",
+     "0–400 °C"
+    ],
+    "out": [
+     "Pt100 3-wire",
+     "4–20 mA head transmitter"
+    ],
+    "conn": [
+     "G½",
+     "½\" NPT",
+     "Flange"
+    ]
+   },
+   "lead": "2–4",
+   "eval": true
+  },
+  {
+   "m": "SUP-WRN",
+   "fam": "temp",
+   "n": "Thermocouple, head-mounted",
+   "s": [
+    "0…1100 °C",
+    "Type K / others",
+    "Boilers, furnaces",
+    "Matching transmitter"
+   ],
+   "opt": {
+    "range": [
+     "0–600 °C",
+     "0–1100 °C"
+    ],
+    "out": [
+     "mV (TC)",
+     "4–20 mA head transmitter"
+    ],
+    "conn": [
+     "G½",
+     "Flange"
+    ]
+   },
+   "lead": "2–4"
+  },
+  {
+   "m": "SUP-ST500",
+   "fam": "temp",
+   "n": "Temperature transmitter (programmable)",
+   "s": [
+    "RTD / TC / mV inputs",
+    "4–20 mA, HART optional",
+    "Head or rail mount",
+    "Isolated"
+   ],
+   "opt": {
+    "range": [
+     "Programmable"
+    ],
+    "out": [
+     "4–20 mA",
+     "4–20 mA HART"
+    ],
+    "conn": [
+     "Head mount",
+     "DIN-rail"
+    ]
+   },
+   "lead": "2–4"
+  },
+  {
+   "m": "SUP-PH6.5",
+   "fam": "anal",
+   "n": "pH / ORP controller",
+   "s": [
+    "0–14 pH, ±2000 mV",
+    "±0.02 pH",
+    "Relay + 4–20 mA",
+    "Panel mount"
+   ],
+   "opt": {
+    "range": [
+     "pH",
+     "ORP"
+    ],
+    "out": [
+     "4–20 mA + relays",
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "With sensor",
+     "Controller only"
+    ]
+   },
+   "lead": "2–4"
+  },
+  {
+   "m": "SUP-TDS210-B",
+   "fam": "anal",
+   "n": "Conductivity controller",
+   "s": [
+    "0.2–20 000 µS/cm",
+    "Temp. compensation",
+    "Relay + 4–20 mA",
+    "Panel mount"
+   ],
+   "opt": {
+    "range": [
+     "0–200 µS/cm",
+     "0–2000 µS/cm",
+     "0–20 mS/cm"
+    ],
+    "out": [
+     "4–20 mA + relays",
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "With sensor",
+     "Controller only"
+    ]
+   },
+   "lead": "2–4"
+  },
+  {
+   "m": "SUP-PTU300",
+   "fam": "anal",
+   "n": "Turbidity controller",
+   "s": [
+    "0–1 / 20 / 100 / 4000 NTU",
+    "Drinking water",
+    "Relay + 4–20 mA",
+    "Panel mount"
+   ],
+   "opt": {
+    "range": [
+     "0–20 NTU",
+     "0–100 NTU",
+     "0–4000 NTU"
+    ],
+    "out": [
+     "4–20 mA + relays",
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "With sensor",
+     "Controller only"
+    ]
+   },
+   "lead": "3–5"
+  },
+  {
+   "m": "MDX500",
+   "fam": "anal",
+   "n": "Multi-parameter water quality panel",
+   "s": [
+    "Turbidity, chlorine, pH, EC, DO, temp.",
+    "Drinking water",
+    "RS485 / 4–20 mA",
+    "Pre-assembled panel"
+   ],
+   "opt": {
+    "range": [
+     "Select parameters in notes"
+    ],
+    "out": [
+     "RS485 Modbus",
+     "4–20 mA"
+    ],
+    "conn": [
+     "Panel"
+    ]
+   },
+   "lead": "4–6"
+  },
+  {
+   "m": "SUP-DC2000",
+   "fam": "anal",
+   "n": "Universal digital controller",
+   "s": [
+    "pH, ORP, DO, EC, turbidity",
+    "Digital sensors",
+    "Relay + 4–20 mA",
+    "2.8\" LCD"
+   ],
+   "opt": {
+    "range": [
+     "Select sensor in notes"
+    ],
+    "out": [
+     "4–20 mA + relays",
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "Panel mount"
+    ]
+   },
+   "lead": "2–4"
+  },
+  {
+   "m": "SUP-TRC400",
+   "fam": "anal",
+   "n": "Residual chlorine controller",
+   "s": [
+    "0–5 mg/L chlorine",
+    "Chlorine / chlorine dioxide",
+    "Relay + 4–20 mA",
+    "Water treatment"
+   ],
+   "opt": {
+    "range": [
+     "0–2 mg/L",
+     "0–5 mg/L"
+    ],
+    "out": [
+     "4–20 mA + relays",
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "With sensor",
+     "Controller only"
+    ]
+   },
+   "lead": "3–5"
+  },
+  {
+   "m": "SUP-DO-7018",
+   "fam": "anal",
+   "n": "Dissolved oxygen sensor",
+   "s": [
+    "0–20 mg/L",
+    "Optical / polarographic",
+    "Wastewater aeration",
+    "Digital / analogue"
+   ],
+   "opt": {
+    "range": [
+     "0–20 mg/L"
+    ],
+    "out": [
+     "RS485 Modbus",
+     "With controller"
+    ],
+    "conn": [
+     "Immersion"
+    ]
+   },
+   "lead": "3–5"
+  },
+  {
+   "m": "SUP-RN3000",
+   "fam": "rec",
+   "n": "Paperless recorder, 3.5\"",
+   "s": [
+    "1–18 channels",
+    "mA / V / RTD / TC",
+    "RS485",
+    "Panel mount"
+   ],
+   "opt": {
+    "range": [
+     "4 ch",
+     "8 ch",
+     "16 ch"
+    ],
+    "out": [
+     "RS485 Modbus",
+     "Ethernet"
+    ],
+    "conn": [
+     "Panel mount"
+    ]
+   },
+   "lead": "2–4"
+  },
+  {
+   "m": "SUP-RN6500",
+   "fam": "rec",
+   "n": "Paperless recorder, 7\" (flow calc.)",
+   "s": [
+    "1–36 channels",
+    "Flow calc. + T/P compensation",
+    "7\" display",
+    "USB export"
+   ],
+   "opt": {
+    "range": [
+     "8 ch",
+     "16 ch",
+     "36 ch"
+    ],
+    "out": [
+     "RS485 Modbus",
+     "Ethernet"
+    ],
+    "conn": [
+     "Panel mount"
+    ]
+   },
+   "lead": "2–4"
+  },
+  {
+   "m": "SUP-R6000C",
+   "fam": "rec",
+   "n": "Paperless recorder, 7\" (48 ch)",
+   "s": [
+    "1–48 channels",
+    "7\" display",
+    "Alarm relays",
+    "USB export"
+   ],
+   "opt": {
+    "range": [
+     "16 ch",
+     "32 ch",
+     "48 ch"
+    ],
+    "out": [
+     "RS485 Modbus",
+     "Ethernet"
+    ],
+    "conn": [
+     "Panel mount"
+    ]
+   },
+   "lead": "2–4"
+  },
+  {
+   "m": "SUP-R1200",
+   "fam": "rec",
+   "n": "Chart recorder, compact",
+   "s": [
+    "1–8 channels",
+    "OLED display",
+    "mA / V / RTD / TC",
+    "Panel mount"
+   ],
+   "opt": {
+    "range": [
+     "1 ch",
+     "4 ch",
+     "8 ch"
+    ],
+    "out": [
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "Panel mount"
+    ]
+   },
+   "lead": "2–4"
+  },
+  {
+   "m": "LDG-SUP-A100",
+   "fam": "flow",
+   "n": "Electromagnetic flowmeter, high accuracy",
+   "s": [
+    "Conductive liquids",
+    "Integral / remote converter",
+    "4–20 mA, pulse, RS485",
+    "Ex version: A100D"
+   ],
+   "opt": {
+    "size": "DN",
+    "out": [
+     "4–20 mA + pulse",
+     "4–20 mA HART",
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "Flange EN PN16",
+     "Flange ASME Cl.150",
+     "Wafer"
+    ]
+   },
+   "lead": "3–5",
+   "ds": "https://www.supmeaauto.com/uploads-lm/2611/ldg-sup-a100-eletromagnetic-flowmeter_datasheet.pdf"
+  },
+  {
+   "m": "LDG-SUP-A100D",
+   "fam": "flow",
+   "n": "Explosion-proof electromagnetic flowmeter",
+   "s": [
+    "Hazardous areas (Ex d)",
+    "Conductive liquids",
+    "4–20 mA, pulse, HART",
+    "Oil & gas water services"
+   ],
+   "opt": {
+    "size": "DN",
+    "out": [
+     "4–20 mA + pulse",
+     "4–20 mA HART",
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "Flange EN PN16",
+     "Flange ASME Cl.150",
+     "Wafer"
+    ]
+   },
+   "lead": "3–5",
+   "ds": "https://www.supmeaauto.com/uploads-lm/2611/ldg-sup-a100d-explosion-proof-electromagnetic-flowmeter-datasheet.pdf"
+  },
+  {
+   "m": "SUP-FMC400",
+   "fam": "flow",
+   "n": "Low-conductivity electromagnetic flowmeter",
+   "s": [
+    "Low-conductivity liquids",
+    "Faraday principle",
+    "4–20 mA, pulse, RS485",
+    "Flanged"
+   ],
+   "opt": {
+    "size": "DN",
+    "out": [
+     "4–20 mA + pulse",
+     "4–20 mA HART",
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "Flange EN PN16",
+     "Flange ASME Cl.150",
+     "Wafer"
+    ]
+   },
+   "lead": "3–5",
+   "ds": "https://www.supmeaauto.com/uploads-lm/2611/fmc400-datasheet.pdf"
+  },
+  {
+   "m": "SUP-FMX240",
+   "fam": "flow",
+   "n": "Compact electromagnetic flowmeter",
+   "s": [
+    "Space-saving design",
+    "Conductive liquids",
+    "4–20 mA, pulse",
+    "Battery / mains options"
+   ],
+   "opt": {
+    "size": "DN",
+    "out": [
+     "4–20 mA + pulse",
+     "4–20 mA HART",
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "Flange EN PN16",
+     "Flange ASME Cl.150",
+     "Wafer"
+    ]
+   },
+   "lead": "3–5"
+  },
+  {
+   "m": "SUP-LDG-I",
+   "fam": "flow",
+   "n": "Insertion electromagnetic flowmeter",
+   "s": [
+    "Large pipes, hot-tap install",
+    "Conductive liquids",
+    "4–20 mA, pulse",
+    "Low pressure loss"
+   ],
+   "opt": {
+    "size": "DN",
+    "out": [
+     "4–20 mA + pulse",
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "Insertion"
+    ]
+   },
+   "lead": "3–5",
+   "ds": "https://www.supmeaauto.com/uploads-lm/2407/insertion-type-electromagnetic-flowmeter.pdf"
+  },
+  {
+   "m": "SUP-LDGR",
+   "fam": "flow",
+   "n": "Electromagnetic BTU (heat) meter",
+   "s": [
+    "Chilled / hot water energy",
+    "Flow + 2× PT1000",
+    "RS485 / M-Bus",
+    "HVAC & district cooling"
+   ],
+   "opt": {
+    "size": "DN",
+    "out": [
+     "4–20 mA + pulse",
+     "4–20 mA HART",
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "Flange EN PN16",
+     "Flange ASME Cl.150",
+     "Wafer"
+    ]
+   },
+   "lead": "3–5",
+   "ds": "https://www.supmeaauto.com/uploads-lm/2407/btu-meter-datasheet.pdf"
+  },
+  {
+   "m": "SUP-LUGB-C",
+   "fam": "flow",
+   "n": "Vortex flowmeter, T/P compensated",
+   "s": [
+    "Steam, gas, liquid",
+    "Integrated T & P compensation",
+    "4–20 mA, pulse, RS485",
+    "Flange / wafer"
+   ],
+   "opt": {
+    "size": "DN",
+    "out": [
+     "4–20 mA + pulse",
+     "4–20 mA HART",
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "Flange EN PN16",
+     "Flange ASME Cl.150",
+     "Wafer"
+    ]
+   },
+   "lead": "3–5",
+   "ds": "https://www.supmeaauto.com/uploads-lm/2505/sup-lugb-c-vortex-flow-meter-datasheet-2977.pdf"
+  },
+  {
+   "m": "SUP-2100H",
+   "fam": "flow",
+   "n": "Handheld ultrasonic flowmeter",
+   "s": [
+    "Portable clamp-on",
+    "Surveys & commissioning",
+    "Data logging",
+    "Battery powered"
+   ],
+   "opt": {
+    "size": "DN",
+    "out": [
+     "Local display + logger"
+    ],
+    "conn": [
+     "Clamp-on transducers"
+    ]
+   },
+   "lead": "3–5",
+   "ds": "https://www.supmeaauto.com/uploads-lm/2407/24072304484299630.pdf"
+  },
+  {
+   "m": "SUP-FSC400",
+   "fam": "flow",
+   "n": "Wall-mounted ultrasonic flowmeter",
+   "s": [
+    "Clamp-on transit time",
+    "Optional heat measurement",
+    "4–20 mA, pulse, RS485",
+    "Fixed installation"
+   ],
+   "opt": {
+    "size": "DN",
+    "out": [
+     "4–20 mA + pulse",
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "Clamp-on transducers"
+    ]
+   },
+   "lead": "3–5",
+   "ds": "https://www.supmeaauto.com/uploads-lm/2611/fsc400-wall-mounted-ultrasonic-flow-meter-datasheet.pdf"
+  },
+  {
+   "m": "SUP-FSD300",
+   "fam": "flow",
+   "n": "Ultrasonic Doppler open-channel meter",
+   "s": [
+    "Velocity, level, temperature",
+    "Open channels, rivers",
+    "Partially-filled pipes",
+    "RS485"
+   ],
+   "opt": {
+    "size": "DN",
+    "out": [
+     "RS485 Modbus",
+     "4–20 mA"
+    ],
+    "conn": [
+     "Submerged sensor"
+    ]
+   },
+   "lead": "3–5",
+   "ds": "https://www.supmeaauto.com/uploads-lm/2611/fsd300-ultrasonic-doppler-flow-meter-datasheet.pdf"
+  },
+  {
+   "m": "SUP-FTM210",
+   "fam": "flow",
+   "n": "Micro thermal gas mass flowmeter",
+   "s": [
+    "Small gas lines",
+    "Thermal principle",
+    "Digital output",
+    "Compact"
+   ],
+   "opt": {
+    "size": "DN",
+    "out": [
+     "RS485 Modbus",
+     "4–20 mA"
+    ],
+    "conn": [
+     "Thread"
+    ]
+   },
+   "lead": "3–5",
+   "ds": "https://www.supmeaauto.com/uploads-lm/2611/ftm210-micro-gas-mass-flow-meter-datasheet.pdf"
+  },
+  {
+   "m": "SUP-FLM200",
+   "fam": "flow",
+   "n": "Miniature turbine flowmeter",
+   "s": [
+    "Small-bore clean liquids",
+    "Pulse output",
+    "Compact",
+    "Dosing & test rigs"
+   ],
+   "opt": {
+    "size": "DN",
+    "out": [
+     "Pulse",
+     "4–20 mA"
+    ],
+    "conn": [
+     "Thread"
+    ]
+   },
+   "lead": "3–5",
+   "ds": "https://www.supmeaauto.com/uploads-lm/2611/flm200-miniature-turbine-flow-meter-datasheet.pdf"
+  },
+  {
+   "m": "FLC420",
+   "fam": "flow",
+   "n": "Turbine flowmeter, clean liquids",
+   "s": [
+    "Low-viscosity liquids",
+    "Pulse / 4–20 mA",
+    "Flange / thread",
+    "Fuel & water"
+   ],
+   "opt": {
+    "size": "DN",
+    "out": [
+     "Pulse",
+     "4–20 mA",
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "Thread",
+     "Flange"
+    ]
+   },
+   "lead": "3–5",
+   "ds": "https://www.supmeaauto.com/uploads-lm/2611/flc420_datasheet.pdf"
+  },
+  {
+   "m": "SUP-FVM200",
+   "fam": "flow",
+   "n": "Miniature vortex flowmeter",
+   "s": [
+    "Small pipes",
+    "Gas, liquid, steam",
+    "Compact",
+    "4–20 mA / pulse"
+   ],
+   "opt": {
+    "size": "DN",
+    "out": [
+     "4–20 mA",
+     "Pulse"
+    ],
+    "conn": [
+     "Thread",
+     "Flange"
+    ]
+   },
+   "lead": "3–5",
+   "ds": "https://www.supmeaauto.com/uploads-lm/2505/fvm200-miniature-vortex-flowmeter-datasheet.pdf"
+  },
+  {
+   "m": "SUP-RD901",
+   "fam": "level",
+   "n": "26 GHz radar, corrosive liquids",
+   "s": [
+    "PTFE sensor",
+    "Acids & alkalis",
+    "4–20 mA HART",
+    "IP67"
+   ],
+   "opt": {
+    "range": [
+     "10 m",
+     "20 m"
+    ],
+    "out": [
+     "2-wire 4–20 mA HART",
+     "4-wire 4–20 mA + RS485"
+    ],
+    "conn": [
+     "Thread",
+     "Flange EN",
+     "Flange ASME"
+    ]
+   },
+   "lead": "3–5"
+  },
+  {
+   "m": "SUP-RD906",
+   "fam": "level",
+   "n": "26 GHz tank radar level meter",
+   "s": [
+    "Storage tanks",
+    "Non-contact",
+    "4–20 mA HART",
+    "IP67"
+   ],
+   "opt": {
+    "range": [
+     "20 m",
+     "30 m"
+    ],
+    "out": [
+     "2-wire 4–20 mA HART",
+     "4-wire 4–20 mA + RS485"
+    ],
+    "conn": [
+     "Thread",
+     "Flange EN",
+     "Flange ASME"
+    ]
+   },
+   "lead": "3–5"
+  },
+  {
+   "m": "SUP-RD908",
+   "fam": "level",
+   "n": "Radar level meter for rivers",
+   "s": [
+    "Open water / channels",
+    "Non-contact",
+    "±3 mm",
+    "IP67/IP65"
+   ],
+   "opt": {
+    "range": [
+     "10 m",
+     "30 m"
+    ],
+    "out": [
+     "2-wire 4–20 mA HART",
+     "4-wire 4–20 mA + RS485"
+    ],
+    "conn": [
+     "Thread",
+     "Flange EN",
+     "Flange ASME"
+    ]
+   },
+   "lead": "3–5"
+  },
+  {
+   "m": "SUP-RD909",
+   "fam": "level",
+   "n": "Radar level meter, 70 m",
+   "s": [
+    "Long range",
+    "Silos & deep tanks",
+    "4–20 mA HART",
+    "IP67"
+   ],
+   "opt": {
+    "range": [
+     "50 m",
+     "70 m"
+    ],
+    "out": [
+     "2-wire 4–20 mA HART",
+     "4-wire 4–20 mA + RS485"
+    ],
+    "conn": [
+     "Thread",
+     "Flange EN",
+     "Flange ASME"
+    ]
+   },
+   "lead": "3–5"
+  },
+  {
+   "m": "SUP-RD905",
+   "fam": "level",
+   "n": "Radar for powders & solids",
+   "s": [
+    "Powders, granules",
+    "Dusty silos",
+    "4–20 mA HART",
+    "IP67"
+   ],
+   "opt": {
+    "range": [
+     "20 m",
+     "30 m"
+    ],
+    "out": [
+     "2-wire 4–20 mA HART",
+     "4-wire 4–20 mA + RS485"
+    ],
+    "conn": [
+     "Thread",
+     "Flange EN",
+     "Flange ASME"
+    ]
+   },
+   "lead": "3–5"
+  },
+  {
+   "m": "SUP-ZP",
+   "fam": "level",
+   "n": "Ultrasonic level transmitter (integral)",
+   "s": [
+    "Non-contact",
+    "Liquids",
+    "4–20 mA / RS485",
+    "Relay alarms option"
+   ],
+   "opt": {
+    "range": [
+     "5 m",
+     "10 m",
+     "20 m"
+    ],
+    "out": [
+     "4–20 mA",
+     "RS485 Modbus",
+     "4–20 mA + relays"
+    ],
+    "conn": [
+     "Thread"
+    ]
+   },
+   "lead": "3–5"
+  },
+  {
+   "m": "SUP-JFC",
+   "fam": "level",
+   "n": "Ultrasonic sludge-blanket / mud level",
+   "s": [
+    "Sludge interface up to 20 m",
+    "Clarifiers, thickeners",
+    "4–20 mA",
+    "Wastewater"
+   ],
+   "opt": {
+    "range": [
+     "10 m",
+     "20 m"
+    ],
+    "out": [
+     "4–20 mA",
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "Submerged probe"
+    ]
+   },
+   "lead": "3–5"
+  },
+  {
+   "m": "SUP-ZPM",
+   "fam": "level",
+   "n": "Short-range ultrasonic level",
+   "s": [
+    "1 m or 2 m range",
+    "Blind zone ≤ 0.06 / 0.15 m",
+    "Small tanks",
+    "4–20 mA"
+   ],
+   "opt": {
+    "range": [
+     "1 m",
+     "2 m"
+    ],
+    "out": [
+     "4–20 mA",
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "Thread"
+    ]
+   },
+   "lead": "3–5"
+  },
+  {
+   "m": "SUP-RTX2400-G",
+   "fam": "press",
+   "n": "In-line gauge pressure transmitter",
+   "s": [
+    "Gauge pressure",
+    "4–20 mA HART",
+    "Stainless diaphragm",
+    "Industrial housing"
+   ],
+   "opt": {
+    "range": "RANGE",
+    "out": [
+     "4–20 mA",
+     "4–20 mA HART",
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "½\" NPT",
+     "M20×1.5",
+     "G½"
+    ]
+   },
+   "lead": "3–5"
+  },
+  {
+   "m": "SUP-RTX2300-A",
+   "fam": "press",
+   "n": "In-line absolute pressure transmitter",
+   "s": [
+    "Absolute pressure",
+    "4–20 mA HART",
+    "Stainless diaphragm",
+    "Industrial housing"
+   ],
+   "opt": {
+    "range": "RANGE",
+    "out": [
+     "4–20 mA",
+     "4–20 mA HART",
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "½\" NPT",
+     "M20×1.5",
+     "G½"
+    ]
+   },
+   "lead": "3–5"
+  },
+  {
+   "m": "SUP-RTX2400-K",
+   "fam": "press",
+   "n": "Gauge pressure transmitter, DP-style interface",
+   "s": [
+    "Gauge pressure",
+    "Coplanar / DP interface",
+    "4–20 mA HART",
+    "Remote seal option"
+   ],
+   "opt": {
+    "range": "RANGE",
+    "out": [
+     "4–20 mA",
+     "4–20 mA HART",
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "½\" NPT",
+     "M20×1.5",
+     "G½"
+    ]
+   },
+   "lead": "3–5"
+  },
+  {
+   "m": "SUP-PD500",
+   "fam": "press",
+   "n": "Pressure + temperature transmitter",
+   "s": [
+    "Combined P & T",
+    "Single process connection",
+    "4–20 mA / RS485",
+    "Compact"
+   ],
+   "opt": {
+    "range": "RANGE",
+    "out": [
+     "4–20 mA",
+     "4–20 mA HART",
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "½\" NPT",
+     "M20×1.5",
+     "G½"
+    ]
+   },
+   "lead": "3–5"
+  },
+  {
+   "m": "SUP-TBY100",
+   "fam": "temp",
+   "n": "Compact temperature transmitter",
+   "s": [
+    "Integral sensor",
+    "4–20 mA",
+    "Compact housing",
+    "HVAC & water"
+   ],
+   "opt": {
+    "range": [
+     "0–100 °C",
+     "0–150 °C"
+    ],
+    "out": [
+     "4–20 mA"
+    ],
+    "conn": [
+     "G½",
+     "½\" NPT"
+    ]
+   },
+   "lead": "3–5"
+  },
+  {
+   "m": "SUP-PH6.8",
+   "fam": "anal",
+   "n": "Online pH / ORP indicator",
+   "s": [
+    "pH & ORP",
+    "Panel mount",
+    "4–20 mA + relays",
+    "Temp. compensation"
+   ],
+   "opt": {
+    "range": [
+     "See notes"
+    ],
+    "out": [
+     "4–20 mA + relays",
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "With sensor",
+     "Controller only"
+    ]
+   },
+   "lead": "3–5"
+  },
+  {
+   "m": "SUP-PH8.5",
+   "fam": "anal",
+   "n": "pH / ORP controller",
+   "s": [
+    "pH & ORP",
+    "Relay control",
+    "4–20 mA, RS485",
+    "Panel mount"
+   ],
+   "opt": {
+    "range": [
+     "See notes"
+    ],
+    "out": [
+     "4–20 mA + relays",
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "With sensor",
+     "Controller only"
+    ]
+   },
+   "lead": "3–5"
+  },
+  {
+   "m": "SUP-DC-P2",
+   "fam": "anal",
+   "n": "Dual-channel universal pH controller",
+   "s": [
+    "2 sensor inputs",
+    "pH / ORP / others",
+    "Relays + 4–20 mA",
+    "RS485"
+   ],
+   "opt": {
+    "range": [
+     "See notes"
+    ],
+    "out": [
+     "4–20 mA + relays",
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "With sensor",
+     "Controller only"
+    ]
+   },
+   "lead": "3–5"
+  },
+  {
+   "m": "SUP-PH163S",
+   "fam": "anal",
+   "n": "Online pH analyser",
+   "s": [
+    "Process pH",
+    "Industrial housing",
+    "4–20 mA",
+    "Relays"
+   ],
+   "opt": {
+    "range": [
+     "See notes"
+    ],
+    "out": [
+     "4–20 mA + relays",
+     "RS485 Modbus"
+    ],
+    "conn": [
+     "With sensor",
+     "Controller only"
+    ]
+   },
+   "lead": "3–5"
+  },
+  {
+   "m": "SUP-ASP2110",
+   "fam": "anal",
+   "n": "pH electrode, plastic body",
+   "s": [
+    "Industrial & general use",
+    "0–14 pH",
+    "Immersion / in-line",
+    "Replaceable"
+   ],
+   "opt": {
+    "range": [
+     "0–14 pH"
+    ],
+    "out": [
+     "mV (electrode)"
+    ],
+    "conn": [
+     "Immersion",
+     "In-line"
+    ]
+   },
+   "lead": "3–5"
+  },
+  {
+   "m": "SUP-R8000D",
+   "fam": "rec",
+   "n": "Paperless recorder (large display)",
+   "s": [
+    "Multi-channel",
+    "Universal inputs",
+    "USB export",
+    "Ethernet / RS485"
+   ],
+   "opt": {
+    "range": [
+     "8 ch",
+     "16 ch",
+     "32 ch"
+    ],
+    "out": [
+     "RS485 Modbus",
+     "Ethernet"
+    ],
+    "conn": [
+     "Panel mount"
+    ]
+   },
+   "lead": "3–5"
+  },
+  {
+   "m": "SUP-R4000D",
+   "fam": "rec",
+   "n": "Paperless recorder (compact)",
+   "s": [
+    "Multi-channel",
+    "Universal inputs",
+    "USB export",
+    "RS485"
+   ],
+   "opt": {
+    "range": [
+     "8 ch",
+     "16 ch",
+     "32 ch"
+    ],
+    "out": [
+     "RS485 Modbus",
+     "Ethernet"
+    ],
+    "conn": [
+     "Panel mount"
+    ]
+   },
+   "lead": "3–5"
+  },
+  {
+   "m": "SUP-R1000",
+   "fam": "rec",
+   "n": "Chart recorder",
+   "s": [
+    "Paper chart",
+    "Universal inputs",
+    "Alarm relays",
+    "Panel mount"
+   ],
+   "opt": {
+    "range": [
+     "1 ch",
+     "2 ch",
+     "4 ch"
+    ],
+    "out": [
+     "Alarm relays"
+    ],
+    "conn": [
+     "Panel mount"
+    ]
+   },
+   "lead": "3–5"
+  }
+ ],
+ "sourcing": [
+  "Siemens",
+  "ABB",
+  "Bently Nevada",
+  "Emerson",
+  "Foxboro",
+  "GE",
+  "HIMA",
+  "Honeywell",
+  "ICS Triplex",
+  "ProSoft",
+  "Rockwell / Allen-Bradley",
+  "Schneider",
+  "Triconex",
+  "Woodward",
+  "Yokogawa"
+ ],
+ "spares": [
+  {
+   "b": "Siemens",
+   "pn": "6ES7234-4HE32-0XB0",
+   "d": "SIMATIC S7-1200 analog I/O signal module",
+   "c": "plc"
+  },
+  {
+   "b": "Siemens",
+   "pn": "6AV2123-2DB03-0AX0",
+   "d": "SIMATIC HMI Basic Panel",
+   "c": "hmi"
+  },
+  {
+   "b": "Siemens",
+   "pn": "6ES7241-1CH30-1XB0",
+   "d": "S7-1200 communication board RS485",
+   "c": "net"
+  },
+  {
+   "b": "Siemens",
+   "pn": "6AV2124-0JC01-0AX0",
+   "d": "SIMATIC HMI Comfort Panel 9\" TFT",
+   "c": "hmi"
+  },
+  {
+   "b": "Siemens",
+   "pn": "6ES7216-2AD23-0XB8",
+   "d": "S7-200 CN CPU module",
+   "c": "plc"
+  },
+  {
+   "b": "Siemens",
+   "pn": "6SL3210-1PE21-1AL0",
+   "d": "SINAMICS PM240-2 power module",
+   "c": "drv"
+  },
+  {
+   "b": "Siemens",
+   "pn": "6SL3210-1PE21-8AL0",
+   "d": "SINAMICS PM240-2 power module",
+   "c": "drv"
+  },
+  {
+   "b": "Siemens",
+   "pn": "6SL3246-0BA22-1FA0",
+   "d": "SINAMICS G120 control unit",
+   "c": "drv"
+  },
+  {
+   "b": "Siemens",
+   "pn": "6SL3210-1PE27-5AL0",
+   "d": "SINAMICS G120 power module",
+   "c": "drv"
+  },
+  {
+   "b": "Siemens",
+   "pn": "6SL3210-1PE31-5AL0",
+   "d": "SINAMICS G120 power module, class A filter",
+   "c": "drv"
+  },
+  {
+   "b": "Siemens",
+   "pn": "6SL3100-0BE23-6AB0",
+   "d": "SINAMICS S120 active interface module",
+   "c": "drv"
+  },
+  {
+   "b": "Siemens",
+   "pn": "6ES7155-6AA01-0BN0",
+   "d": "ET 200SP PROFINET interface module",
+   "c": "rio"
+  },
+  {
+   "b": "Siemens",
+   "pn": "6ES7134-6GF00-0AA1",
+   "d": "ET 200SP analog input module",
+   "c": "rio"
+  },
+  {
+   "b": "Siemens",
+   "pn": "6ES7131-6BH01-0BA0",
+   "d": "ET 200SP digital input module",
+   "c": "rio"
+  },
+  {
+   "b": "Siemens",
+   "pn": "6ES7592-1BM00-0XA0",
+   "d": "S7-1500 front connector, 40-pole push-in",
+   "c": "acc"
+  },
+  {
+   "b": "Siemens",
+   "pn": "3RT5044-1AN20",
+   "d": "SIRIUS contactor, 3-pole, size S3",
+   "c": "lv"
+  },
+  {
+   "b": "Siemens",
+   "pn": "3RT6015-1BB41",
+   "d": "SIRIUS power contactor, 3-pole",
+   "c": "lv"
+  },
+  {
+   "b": "Triconex",
+   "pn": "MP 3101",
+   "d": "Tricon main processor module",
+   "c": "sis"
+  },
+  {
+   "b": "Triconex",
+   "pn": "8311",
+   "d": "Tricon high-density power module",
+   "c": "sis"
+  },
+  {
+   "b": "Triconex",
+   "pn": "3624",
+   "d": "Tricon digital output module",
+   "c": "sis"
+  },
+  {
+   "b": "Triconex",
+   "pn": "4329G",
+   "d": "Tricon network communication module",
+   "c": "sis"
+  },
+  {
+   "b": "Triconex",
+   "pn": "4351B",
+   "d": "Tricon communication module",
+   "c": "sis"
+  },
+  {
+   "b": "Triconex",
+   "pn": "4310",
+   "d": "Enhanced data collection module",
+   "c": "sis"
+  },
+  {
+   "b": "Triconex",
+   "pn": "4000188-310",
+   "d": "Termination panel",
+   "c": "sis"
+  },
+  {
+   "b": "Triconex",
+   "pn": "4201",
+   "d": "Remote fiber-optic module",
+   "c": "sis"
+  },
+  {
+   "b": "Triconex",
+   "pn": "DI2301",
+   "d": "Trident digital input baseplate",
+   "c": "sis"
+  },
+  {
+   "b": "Triconex",
+   "pn": "AI2351",
+   "d": "Trident analog input baseplate",
+   "c": "sis"
+  },
+  {
+   "b": "Triconex",
+   "pn": "DO2401",
+   "d": "Trident digital output module",
+   "c": "sis"
+  },
+  {
+   "b": "Triconex",
+   "pn": "AO2481",
+   "d": "Trident analog output module",
+   "c": "sis"
+  },
+  {
+   "b": "Triconex",
+   "pn": "7400121-380",
+   "d": "External terminator",
+   "c": "sis"
+  },
+  {
+   "b": "Triconex",
+   "pn": "3805H",
+   "d": "Tricon analog output module",
+   "c": "sis"
+  },
+  {
+   "b": "Triconex",
+   "pn": "3501T",
+   "d": "Tricon digital input module",
+   "c": "sis"
+  },
+  {
+   "b": "Triconex",
+   "pn": "3806E",
+   "d": "Tricon analog output module",
+   "c": "sis"
+  },
+  {
+   "b": "Triconex",
+   "pn": "3721",
+   "d": "Tricon analog input module",
+   "c": "sis"
+  },
+  {
+   "b": "Bently Nevada",
+   "pn": "136703-01",
+   "d": "Discrete internal barrier I/O module",
+   "c": "vib"
+  },
+  {
+   "b": "Bently Nevada",
+   "pn": "330101-00-08-20-02-05",
+   "d": "3300 XL 8 mm proximity transducer",
+   "c": "vib"
+  },
+  {
+   "b": "Bently Nevada",
+   "pn": "330104-00-09-10-01-00",
+   "d": "3300 XL 8 mm proximity probe",
+   "c": "vib"
+  },
+  {
+   "b": "Bently Nevada",
+   "pn": "200150-22-CN",
+   "d": "Trendmaster Pro casing accelerometer",
+   "c": "vib"
+  },
+  {
+   "b": "Bently Nevada",
+   "pn": "16925-70",
+   "d": "Interconnect cable for 330400 accelerometer",
+   "c": "vib"
+  },
+  {
+   "b": "Bently Nevada",
+   "pn": "27465-01",
+   "d": "Weatherproof housing for LVDT valve position transducer",
+   "c": "vib"
+  },
+  {
+   "b": "Bently Nevada",
+   "pn": "CB2W100-112",
+   "d": "Splash-proof cable for 2-wire transducers, 112 ft",
+   "c": "vib"
+  },
+  {
+   "b": "Bently Nevada",
+   "pn": "84661-18",
+   "d": "Armored Velomitor interconnect cable, 18 ft",
+   "c": "vib"
+  },
+  {
+   "b": "Bently Nevada",
+   "pn": "330171-00-12-50-01-CN",
+   "d": "3300 5 mm proximity probe",
+   "c": "vib"
+  },
+  {
+   "b": "Bently Nevada",
+   "pn": "21000-28-05-40-026-04-02",
+   "d": "Proximity probe housing assembly, aluminium",
+   "c": "vib"
+  },
+  {
+   "b": "Bently Nevada",
+   "pn": "31000-26-05-00-040-01-02",
+   "d": "Explosion-proof proximity probe housing assembly",
+   "c": "vib"
+  },
+  {
+   "b": "Bently Nevada",
+   "pn": "330104-00-06-05-01-CN",
+   "d": "3300 XL 8 mm eddy-current proximity probe",
+   "c": "vib"
+  },
+  {
+   "b": "Bently Nevada",
+   "pn": "330905-00-11-05-02-00",
+   "d": "3300 NSv narrow side-view proximity probe",
+   "c": "vib"
+  },
+  {
+   "b": "Bently Nevada",
+   "pn": "16710-18",
+   "d": "Armored interconnect cable for 330400/330425 accelerometers",
+   "c": "vib"
+  },
+  {
+   "b": "ABB",
+   "pn": "PHAFIOFFH10000",
+   "d": "Symphony Plus I/O input module",
+   "c": "dcs"
+  },
+  {
+   "b": "ABB",
+   "pn": "PM860K01 3BSE018100R1",
+   "d": "AC 800M processor unit kit",
+   "c": "dcs"
+  },
+  {
+   "b": "ABB",
+   "pn": "GFD233A 3BHE022294R0101",
+   "d": "Drive/excitation control board",
+   "c": "drv"
+  },
+  {
+   "b": "ABB",
+   "pn": "PHARPS32200000",
+   "d": "Multi-output power supply module (MPS III)",
+   "c": "dcs"
+  },
+  {
+   "b": "ABB",
+   "pn": "DCF803-0035",
+   "d": "Half-controlled 3-phase field exciter",
+   "c": "drv"
+  },
+  {
+   "b": "ABB",
+   "pn": "DSIH75VP 57310290-RD",
+   "d": "Operator keyboard",
+   "c": "dcs"
+  },
+  {
+   "b": "ABB",
+   "pn": "SNAT 7261 QCP",
+   "d": "Main interface board",
+   "c": "drv"
+  },
+  {
+   "b": "ABB",
+   "pn": "NGDR-07C FF650R17IE4",
+   "d": "IGBT module with gate driver",
+   "c": "drv"
+  },
+  {
+   "b": "ABB",
+   "pn": "NGDR-07C FF1400R12IP4",
+   "d": "IGBT module with gate driver",
+   "c": "drv"
+  },
+  {
+   "b": "ABB",
+   "pn": "FS450R17KE3 AGDR-71C",
+   "d": "IGBT module with gate driver",
+   "c": "drv"
+  },
+  {
+   "b": "ABB",
+   "pn": "TU860",
+   "d": "Ethernet master terminal unit",
+   "c": "dcs"
+  },
+  {
+   "b": "ABB",
+   "pn": "TK856 3BSE057021R1",
+   "d": "RCU control link cable",
+   "c": "dcs"
+  },
+  {
+   "b": "ABB",
+   "pn": "TC810",
+   "d": "Ethernet adapter",
+   "c": "dcs"
+  },
+  {
+   "b": "ABB",
+   "pn": "CI845",
+   "d": "Ethernet fieldbus communication interface",
+   "c": "dcs"
+  },
+  {
+   "b": "ABB",
+   "pn": "NINT-42 58907952H",
+   "d": "Main circuit interface board",
+   "c": "drv"
+  },
+  {
+   "b": "ABB",
+   "pn": "RLM02 3BSE091723R1",
+   "d": "PROFIBUS redundancy link module",
+   "c": "dcs"
+  },
+  {
+   "b": "ABB",
+   "pn": "GJR2396200R1210 83SR51C-E",
+   "d": "Control module",
+   "c": "dcs"
+  },
+  {
+   "b": "ABB",
+   "pn": "ACSM1-04AM-04A0-4",
+   "d": "ACSM1 drive module, IP20",
+   "c": "drv"
+  },
+  {
+   "b": "Honeywell",
+   "pn": "10105/2/1",
+   "d": "Safety Manager fail-safe high-density analog input module",
+   "c": "sis"
+  },
+  {
+   "b": "Honeywell",
+   "pn": "FC-PDB-0824P",
+   "d": "Safety Manager power distribution board",
+   "c": "sis"
+  },
+  {
+   "b": "Honeywell",
+   "pn": "FC-RUSLS-3224",
+   "d": "Safety Manager universal safety RIO module",
+   "c": "sis"
+  },
+  {
+   "b": "Honeywell",
+   "pn": "FC-TSFIRE-1624",
+   "d": "Fire & gas field termination assembly",
+   "c": "sis"
+  },
+  {
+   "b": "Honeywell",
+   "pn": "TK-PRS022 51404305-575",
+   "d": "C200E control processor assembly",
+   "c": "dcs"
+  },
+  {
+   "b": "Honeywell",
+   "pn": "CC-PSV201 51454123-175",
+   "d": "Experion C300 servo valve positioner module",
+   "c": "dcs"
+  },
+  {
+   "b": "Honeywell",
+   "pn": "CC-TSV211 51306665-175",
+   "d": "Experion C300 servo valve positioner IOTA",
+   "c": "dcs"
+  },
+  {
+   "b": "Honeywell",
+   "pn": "DC-TUIO31 51307772-176",
+   "d": "Experion analog input module",
+   "c": "dcs"
+  },
+  {
+   "b": "Honeywell",
+   "pn": "CC-PPIX01 51410089-175",
+   "d": "Experion C300 pulse input module",
+   "c": "dcs"
+  },
+  {
+   "b": "Honeywell",
+   "pn": "CC-TAIX01 51308363-175",
+   "d": "Experion C300 analog input module (TC/RTD/V/mA)",
+   "c": "dcs"
+  },
+  {
+   "b": "Honeywell",
+   "pn": "FS-TSDO-04UNI",
+   "d": "Safe digital output module",
+   "c": "sis"
+  },
+  {
+   "b": "Honeywell",
+   "pn": "FC-TSDO-04UNI",
+   "d": "Safe digital output module",
+   "c": "sis"
+  },
+  {
+   "b": "Honeywell",
+   "pn": "FS-TRO-0824",
+   "d": "Digital output module",
+   "c": "sis"
+  },
+  {
+   "b": "Honeywell",
+   "pn": "FS-TSDO-0824",
+   "d": "Safe digital output module",
+   "c": "sis"
+  },
+  {
+   "b": "Honeywell",
+   "pn": "FS-TSAI-1620M",
+   "d": "Analog input field termination assembly",
+   "c": "sis"
+  },
+  {
+   "b": "Honeywell",
+   "pn": "FS-TSGAS-1624",
+   "d": "Gas detection digital input FTA",
+   "c": "sis"
+  },
+  {
+   "b": "Honeywell",
+   "pn": "FS-TPSU-2430",
+   "d": "DC/DC converter",
+   "c": "sis"
+  },
+  {
+   "b": "Honeywell",
+   "pn": "FS-TSRO-0824",
+   "d": "Digital output field termination assembly",
+   "c": "sis"
+  },
+  {
+   "b": "Honeywell",
+   "pn": "CSNK500M-600",
+   "d": "Closed-loop current transducer",
+   "c": "oth"
+  },
+  {
+   "b": "Emerson",
+   "pn": "KJ3222X1-BA1 12P2532X072",
+   "d": "DeltaV analog output module",
+   "c": "dcs"
+  },
+  {
+   "b": "Emerson",
+   "pn": "5X00790G01",
+   "d": "Ovation OCC100 controller module",
+   "c": "dcs"
+  },
+  {
+   "b": "Emerson",
+   "pn": "1C31169G02",
+   "d": "Ovation link controller module",
+   "c": "dcs"
+  },
+  {
+   "b": "Emerson",
+   "pn": "1C31166G02",
+   "d": "Ovation serial link controller",
+   "c": "dcs"
+  },
+  {
+   "b": "Emerson",
+   "pn": "KJ3241X1-BK1 SE4006P2",
+   "d": "DeltaV serial interface card",
+   "c": "dcs"
+  },
+  {
+   "b": "Emerson",
+   "pn": "KJ2005X1-BK1 SE3007",
+   "d": "DeltaV SX controller",
+   "c": "dcs"
+  },
+  {
+   "b": "Emerson",
+   "pn": "KJ1501X1-BC4 13P0063X052",
+   "d": "DeltaV power supply",
+   "c": "dcs"
+  },
+  {
+   "b": "Emerson",
+   "pn": "KL2101X1-BB1 SE6504",
+   "d": "DeltaV CHARM I/O card",
+   "c": "dcs"
+  },
+  {
+   "b": "Emerson",
+   "pn": "KJ3243X1-BK1 SE4022",
+   "d": "DeltaV PROFIBUS DP interface card",
+   "c": "dcs"
+  },
+  {
+   "b": "Emerson",
+   "pn": "KJ3246X1-BA1",
+   "d": "DeltaV redundant power supply module",
+   "c": "dcs"
+  },
+  {
+   "b": "Emerson",
+   "pn": "PR9268/601-000",
+   "d": "Electrodynamic velocity sensor",
+   "c": "vib"
+  },
+  {
+   "b": "Emerson",
+   "pn": "SP2401",
+   "d": "Control Techniques AC drive",
+   "c": "drv"
+  },
+  {
+   "b": "Emerson",
+   "pn": "M701-032 00106A",
+   "d": "Unidrive M701 drive",
+   "c": "drv"
+  },
+  {
+   "b": "Emerson",
+   "pn": "SPMC2402",
+   "d": "Control Techniques input rectifier",
+   "c": "drv"
+  },
+  {
+   "b": "Emerson",
+   "pn": "IC694CHS392D",
+   "d": "PACSystems RX3i 10-slot expansion base",
+   "c": "plc"
+  },
+  {
+   "b": "GE",
+   "pn": "IS215VPROH2BC",
+   "d": "Mark VIe turbine protection board",
+   "c": "tur"
+  },
+  {
+   "b": "GE",
+   "pn": "IS200WROBH1AAA",
+   "d": "Mark VI distribution board",
+   "c": "tur"
+  },
+  {
+   "b": "GE",
+   "pn": "IS420UCSCH1A",
+   "d": "Mark VIe UCSC controller",
+   "c": "tur"
+  },
+  {
+   "b": "GE",
+   "pn": "IS200TREAH1A",
+   "d": "Turbine emergency trip terminal board",
+   "c": "tur"
+  },
+  {
+   "b": "GE",
+   "pn": "IS200WREAH1A",
+   "d": "Aero trip terminal board",
+   "c": "tur"
+  },
+  {
+   "b": "GE",
+   "pn": "IS200TDBTH2ACD",
+   "d": "Discrete I/O terminal board",
+   "c": "tur"
+  },
+  {
+   "b": "GE",
+   "pn": "IS200VCMIH2BCD",
+   "d": "Mark VI bus master controller board",
+   "c": "tur"
+  },
+  {
+   "b": "GE",
+   "pn": "IS200VCMIH2CAA",
+   "d": "Speedtronic VCMI communication board",
+   "c": "tur"
+  },
+  {
+   "b": "GE",
+   "pn": "UR7KH",
+   "d": "Multilin UR communications module",
+   "c": "oth"
+  },
+  {
+   "b": "GE",
+   "pn": "IC693CPU374",
+   "d": "Series 90-30 CPU module",
+   "c": "plc"
+  },
+  {
+   "b": "GE",
+   "pn": "IC693CBL300",
+   "d": "Series 90-30 I/O bus expansion cable",
+   "c": "plc"
+  },
+  {
+   "b": "GE",
+   "pn": "IC693MDL753",
+   "d": "Series 90-30 output module",
+   "c": "plc"
+  },
+  {
+   "b": "GE",
+   "pn": "IC693PWR331D",
+   "d": "Series 90-30 power supply module",
+   "c": "plc"
+  },
+  {
+   "b": "GE",
+   "pn": "IC660BBA104",
+   "d": "Genius current-source analog I/O block",
+   "c": "plc"
+  },
+  {
+   "b": "GE",
+   "pn": "HE693THM884G",
+   "d": "Thermocouple input module",
+   "c": "plc"
+  },
+  {
+   "b": "GE",
+   "pn": "IC695CPU320",
+   "d": "PACSystems RX3i CPU",
+   "c": "plc"
+  },
+  {
+   "b": "GE",
+   "pn": "PCIE-5565PIORC-100A00",
+   "d": "Reflective memory PCIe node card",
+   "c": "net"
+  },
+  {
+   "b": "Yokogawa",
+   "pn": "VI702 S1",
+   "d": "Vnet/IP interface card",
+   "c": "dcs"
+  },
+  {
+   "b": "Yokogawa",
+   "pn": "CP333D S3",
+   "d": "CENTUM CS 3000 FCS processor module",
+   "c": "dcs"
+  },
+  {
+   "b": "Yokogawa",
+   "pn": "ANB10D-427/CU2T",
+   "d": "Node interface unit",
+   "c": "dcs"
+  },
+  {
+   "b": "Yokogawa",
+   "pn": "EC402-51",
+   "d": "ESB bus coupler module",
+   "c": "dcs"
+  },
+  {
+   "b": "Yokogawa",
+   "pn": "AFV30D-A41262",
+   "d": "Duplexed field control unit",
+   "c": "dcs"
+  },
+  {
+   "b": "Yokogawa",
+   "pn": "SNB10D-425/CU2T",
+   "d": "ProSafe-RS safety node unit",
+   "c": "sis"
+  },
+  {
+   "b": "Yokogawa",
+   "pn": "S2SC70D-FA412010",
+   "d": "Control unit",
+   "c": "dcs"
+  },
+  {
+   "b": "Yokogawa",
+   "pn": "ALF111-S50",
+   "d": "Foundation Fieldbus communication module",
+   "c": "dcs"
+  },
+  {
+   "b": "Yokogawa",
+   "pn": "CP401-10 S1",
+   "d": "Processor module",
+   "c": "dcs"
+  },
+  {
+   "b": "Yokogawa",
+   "pn": "AAI143",
+   "d": "Analog input module 4–20 mA, 16 ch",
+   "c": "dcs"
+  },
+  {
+   "b": "Yokogawa",
+   "pn": "MX100-J-1W/SL3",
+   "d": "Data acquisition unit",
+   "c": "oth"
+  },
+  {
+   "b": "Yokogawa",
+   "pn": "MW100-E-3W/C2",
+   "d": "Data acquisition unit",
+   "c": "oth"
+  },
+  {
+   "b": "Foxboro",
+   "pn": "FCP270 P0917YZ",
+   "d": "I/A Series field control processor",
+   "c": "dcs"
+  },
+  {
+   "b": "Foxboro",
+   "pn": "FBM232 P0926GW",
+   "d": "Field device system integrator, Ethernet",
+   "c": "dcs"
+  },
+  {
+   "b": "Foxboro",
+   "pn": "FBM233 P0926GX",
+   "d": "Redundant Ethernet communication module",
+   "c": "dcs"
+  },
+  {
+   "b": "Foxboro",
+   "pn": "FBM217 P0914TR",
+   "d": "Discrete input module, high density",
+   "c": "dcs"
+  },
+  {
+   "b": "Foxboro",
+   "pn": "FBM214",
+   "d": "HART communication input module",
+   "c": "dcs"
+  },
+  {
+   "b": "Foxboro",
+   "pn": "FCM2F10 P0916TQ",
+   "d": "Fieldbus communication module",
+   "c": "dcs"
+  },
+  {
+   "b": "Foxboro",
+   "pn": "P0926JMA",
+   "d": "Baseplate module",
+   "c": "dcs"
+  },
+  {
+   "b": "Foxboro",
+   "pn": "P0903CV",
+   "d": "Annunciator keyboard, RS-485",
+   "c": "dcs"
+  },
+  {
+   "b": "Foxboro",
+   "pn": "P0961CA",
+   "d": "Fiber-optic LAN module",
+   "c": "dcs"
+  },
+  {
+   "b": "Foxboro",
+   "pn": "T2550",
+   "d": "Programmable automation controller",
+   "c": "dcs"
+  },
+  {
+   "b": "HIMA",
+   "pn": "K1409",
+   "d": "H41q system subrack, 19\"",
+   "c": "sis"
+  },
+  {
+   "b": "HIMA",
+   "pn": "F8652X",
+   "d": "Central module",
+   "c": "sis"
+  },
+  {
+   "b": "HIMA",
+   "pn": "X-CPU01",
+   "d": "HIMax processor module, SIL 3",
+   "c": "sis"
+  },
+  {
+   "b": "HIMA",
+   "pn": "X-COM01",
+   "d": "HIMax communication module",
+   "c": "sis"
+  },
+  {
+   "b": "HIMA",
+   "pn": "X-AO1601",
+   "d": "HIMax analog output module, 16 ch",
+   "c": "sis"
+  },
+  {
+   "b": "HIMA",
+   "pn": "X-DI3201",
+   "d": "HIMax digital input module, 32 ch",
+   "c": "sis"
+  },
+  {
+   "b": "HIMA",
+   "pn": "X-AI3201",
+   "d": "HIMax analog input module",
+   "c": "sis"
+  },
+  {
+   "b": "HIMA",
+   "pn": "F60CPU01",
+   "d": "HIMatrix F60 safety controller, SIL 3",
+   "c": "sis"
+  },
+  {
+   "b": "HIMA",
+   "pn": "F60MI2401",
+   "d": "HIMatrix F60 digital input module, 24 ch",
+   "c": "sis"
+  },
+  {
+   "b": "HIMA",
+   "pn": "F60AO801",
+   "d": "HIMatrix F60 analog output module",
+   "c": "sis"
+  },
+  {
+   "b": "HIMA",
+   "pn": "F3DIO16/801",
+   "d": "HIMatrix remote I/O 16 DI / 8 DO, SIL 3",
+   "c": "sis"
+  },
+  {
+   "b": "HIMA",
+   "pn": "F8620/11",
+   "d": "CPU module",
+   "c": "sis"
+  },
+  {
+   "b": "ICS Triplex",
+   "pn": "T8800",
+   "d": "Trusted 40-channel 24 V digital input module (TMR)",
+   "c": "sis"
+  },
+  {
+   "b": "ICS Triplex",
+   "pn": "T8193",
+   "d": "Trusted digital input module",
+   "c": "sis"
+  },
+  {
+   "b": "ICS Triplex",
+   "pn": "T9431",
+   "d": "AADvance analogue input module, 8 ch",
+   "c": "sis"
+  },
+  {
+   "b": "ICS Triplex",
+   "pn": "T9082U",
+   "d": "Single controller (AADvance)",
+   "c": "sis"
+  },
+  {
+   "b": "ICS Triplex",
+   "pn": "T7481",
+   "d": "Regent monitored guarded output module",
+   "c": "sis"
+  },
+  {
+   "b": "ICS Triplex",
+   "pn": "T8290C",
+   "d": "Trusted output power distribution unit",
+   "c": "sis"
+  },
+  {
+   "b": "ICS Triplex",
+   "pn": "T8231C",
+   "d": "Trusted 750 W power pack",
+   "c": "sis"
+  },
+  {
+   "b": "ICS Triplex",
+   "pn": "T8842",
+   "d": "Fire & gas versatile field termination assembly",
+   "c": "sis"
+  },
+  {
+   "b": "ICS Triplex",
+   "pn": "T8240",
+   "d": "Trusted power supply module",
+   "c": "sis"
+  },
+  {
+   "b": "ICS Triplex",
+   "pn": "T9833",
+   "d": "AADvance termination assembly",
+   "c": "sis"
+  },
+  {
+   "b": "Woodward",
+   "pn": "5437-2131",
+   "d": "ProTech-GII overspeed protection device",
+   "c": "tur"
+  },
+  {
+   "b": "Woodward",
+   "pn": "8440-2082",
+   "d": "easYgen-3500XT-P1 genset controller",
+   "c": "tur"
+  },
+  {
+   "b": "Woodward",
+   "pn": "9907-347",
+   "d": "Overspeed protection module",
+   "c": "tur"
+  },
+  {
+   "b": "Woodward",
+   "pn": "9907-147",
+   "d": "ProTech overspeed protection module",
+   "c": "tur"
+  },
+  {
+   "b": "Woodward",
+   "pn": "5464-654",
+   "d": "MicroNet discrete output module",
+   "c": "tur"
+  },
+  {
+   "b": "Woodward",
+   "pn": "5464-333",
+   "d": "MicroNet thermocouple input module",
+   "c": "tur"
+  },
+  {
+   "b": "Woodward",
+   "pn": "5464-334",
+   "d": "MicroNet analog input module, 8 ch 4–20 mA",
+   "c": "tur"
+  },
+  {
+   "b": "Woodward",
+   "pn": "5466-348",
+   "d": "NetCon SIO module, 3× RS-485",
+   "c": "tur"
+  },
+  {
+   "b": "Woodward",
+   "pn": "5501-470",
+   "d": "CPU module",
+   "c": "tur"
+  },
+  {
+   "b": "Woodward",
+   "pn": "5466-354",
+   "d": "MicroNet CPU module",
+   "c": "tur"
+  },
+  {
+   "b": "Woodward",
+   "pn": "8440-1947",
+   "d": "Generator set controller",
+   "c": "tur"
+  },
+  {
+   "b": "Schneider",
+   "pn": "140NOE77111",
+   "d": "Modicon Quantum Ethernet module",
+   "c": "plc"
+  },
+  {
+   "b": "Schneider",
+   "pn": "BMXP3420302",
+   "d": "Modicon M340 processor",
+   "c": "plc"
+  },
+  {
+   "b": "Schneider",
+   "pn": "BMXDDO1602",
+   "d": "Modicon X80 discrete output 16 × 24 VDC",
+   "c": "plc"
+  },
+  {
+   "b": "Schneider",
+   "pn": "BMXDDI3202K",
+   "d": "Modicon X80 discrete input 32 ch",
+   "c": "plc"
+  },
+  {
+   "b": "Schneider",
+   "pn": "BMXAMO0802",
+   "d": "Modicon X80 analog output 8 ch",
+   "c": "plc"
+  },
+  {
+   "b": "Schneider",
+   "pn": "BMXAMI0800",
+   "d": "Modicon X80 analog input 8 ch",
+   "c": "plc"
+  },
+  {
+   "b": "Schneider",
+   "pn": "171CCS76000",
+   "d": "Modicon Momentum M1E processor adapter",
+   "c": "plc"
+  },
+  {
+   "b": "Schneider",
+   "pn": "170ENT11000",
+   "d": "Modicon Momentum Ethernet adapter",
+   "c": "plc"
+  },
+  {
+   "b": "Schneider",
+   "pn": "ATV61HD75N4",
+   "d": "Altivar 61 drive, 75 kW 400 V",
+   "c": "drv"
+  },
+  {
+   "b": "Schneider",
+   "pn": "MICROLOGIC 6.0 E",
+   "d": "Masterpact NW trip unit, LSIG",
+   "c": "lv"
+  },
+  {
+   "b": "Rockwell / Allen-Bradley",
+   "pn": "1756-L64",
+   "d": "ControlLogix Logix5564 processor",
+   "c": "plc"
+  },
+  {
+   "b": "Rockwell / Allen-Bradley",
+   "pn": "1794-IRT8",
+   "d": "FLEX I/O thermocouple/RTD module",
+   "c": "plc"
+  },
+  {
+   "b": "Rockwell / Allen-Bradley",
+   "pn": "1794-IE12",
+   "d": "FLEX I/O analog input module",
+   "c": "plc"
+  },
+  {
+   "b": "Rockwell / Allen-Bradley",
+   "pn": "1794-IV32",
+   "d": "FLEX I/O digital input, 32 ch",
+   "c": "plc"
+  },
+  {
+   "b": "Rockwell / Allen-Bradley",
+   "pn": "1794-OV32",
+   "d": "FLEX I/O digital output, 32 ch",
+   "c": "plc"
+  },
+  {
+   "b": "Rockwell / Allen-Bradley",
+   "pn": "1794-OM8",
+   "d": "FLEX I/O digital output module",
+   "c": "plc"
+  },
+  {
+   "b": "Rockwell / Allen-Bradley",
+   "pn": "1769-OF8C",
+   "d": "CompactLogix analog output, 8 ch",
+   "c": "plc"
+  },
+  {
+   "b": "Rockwell / Allen-Bradley",
+   "pn": "2711P-K10C4D8",
+   "d": "PanelView Plus operator interface",
+   "c": "hmi"
+  },
+  {
+   "b": "Rockwell / Allen-Bradley",
+   "pn": "2711-K6C2L1",
+   "d": "PanelView 600 operator terminal",
+   "c": "hmi"
+  },
+  {
+   "b": "Rockwell / Allen-Bradley",
+   "pn": "1784-CF64",
+   "d": "CompactFlash memory card 64 MB",
+   "c": "plc"
+  },
+  {
+   "b": "Rockwell / Allen-Bradley",
+   "pn": "193-EC2CB",
+   "d": "E3 Plus overload relay",
+   "c": "lv"
+  },
+  {
+   "b": "Rockwell / Allen-Bradley",
+   "pn": "2094-AC09-M02-S",
+   "d": "Kinetix 6000 integrated axis module",
+   "c": "drv"
+  },
+  {
+   "b": "Rockwell / Allen-Bradley",
+   "pn": "1503VC-BMC5-MC1",
+   "d": "Vacuum contactor control module",
+   "c": "lv"
+  },
+  {
+   "b": "ProSoft",
+   "pn": "PLX31-EIP-MBTCP",
+   "d": "EtherNet/IP ↔ Modbus TCP gateway",
+   "c": "net"
+  }
+ ]
+}

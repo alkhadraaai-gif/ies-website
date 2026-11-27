@@ -1,0 +1,196 @@
+Siemens	6ES7234-4HE32-0XB0	SIMATIC S7-1200 analog I/O signal module	plc
+Siemens	6AV2123-2DB03-0AX0	SIMATIC HMI Basic Panel	hmi
+Siemens	6ES7241-1CH30-1XB0	S7-1200 communication board RS485	net
+Siemens	6AV2124-0JC01-0AX0	SIMATIC HMI Comfort Panel 9" TFT	hmi
+Siemens	6ES7216-2AD23-0XB8	S7-200 CN CPU module	plc
+Siemens	6SL3210-1PE21-1AL0	SINAMICS PM240-2 power module	drv
+Siemens	6SL3210-1PE21-8AL0	SINAMICS PM240-2 power module	drv
+Siemens	6SL3246-0BA22-1FA0	SINAMICS G120 control unit	drv
+Siemens	6SL3210-1PE27-5AL0	SINAMICS G120 power module	drv
+Siemens	6SL3210-1PE31-5AL0	SINAMICS G120 power module, class A filter	drv
+Siemens	6SL3100-0BE23-6AB0	SINAMICS S120 active interface module	drv
+Siemens	6ES7155-6AA01-0BN0	ET 200SP PROFINET interface module	rio
+Siemens	6ES7134-6GF00-0AA1	ET 200SP analog input module	rio
+Siemens	6ES7131-6BH01-0BA0	ET 200SP digital input module	rio
+Siemens	6ES7592-1BM00-0XA0	S7-1500 front connector, 40-pole push-in	acc
+Siemens	3RT5044-1AN20	SIRIUS contactor, 3-pole, size S3	lv
+Siemens	3RT6015-1BB41	SIRIUS power contactor, 3-pole	lv
+Triconex	MP 3101	Tricon main processor module	sis
+Triconex	8311	Tricon high-density power module	sis
+Triconex	3624	Tricon digital output module	sis
+Triconex	4329G	Tricon network communication module	sis
+Triconex	4351B	Tricon communication module	sis
+Triconex	4310	Enhanced data collection module	sis
+Triconex	4000188-310	Termination panel	sis
+Triconex	4201	Remote fiber-optic module	sis
+Triconex	DI2301	Trident digital input baseplate	sis
+Triconex	AI2351	Trident analog input baseplate	sis
+Triconex	DO2401	Trident digital output module	sis
+Triconex	AO2481	Trident analog output module	sis
+Triconex	7400121-380	External terminator	sis
+Triconex	3805H	Tricon analog output module	sis
+Triconex	3501T	Tricon digital input module	sis
+Triconex	3806E	Tricon analog output module	sis
+Triconex	3721	Tricon analog input module	sis
+Bently Nevada	136703-01	Discrete internal barrier I/O module	vib
+Bently Nevada	330101-00-08-20-02-05	3300 XL 8 mm proximity transducer	vib
+Bently Nevada	330104-00-09-10-01-00	3300 XL 8 mm proximity probe	vib
+Bently Nevada	200150-22-CN	Trendmaster Pro casing accelerometer	vib
+Bently Nevada	16925-70	Interconnect cable for 330400 accelerometer	vib
+Bently Nevada	27465-01	Weatherproof housing for LVDT valve position transducer	vib
+Bently Nevada	CB2W100-112	Splash-proof cable for 2-wire transducers, 112 ft	vib
+Bently Nevada	84661-18	Armored Velomitor interconnect cable, 18 ft	vib
+Bently Nevada	330171-00-12-50-01-CN	3300 5 mm proximity probe	vib
+Bently Nevada	21000-28-05-40-026-04-02	Proximity probe housing assembly, aluminium	vib
+Bently Nevada	31000-26-05-00-040-01-02	Explosion-proof proximity probe housing assembly	vib
+Bently Nevada	330104-00-06-05-01-CN	3300 XL 8 mm eddy-current proximity probe	vib
+Bently Nevada	330905-00-11-05-02-00	3300 NSv narrow side-view proximity probe	vib
+Bently Nevada	16710-18	Armored interconnect cable for 330400/330425 accelerometers	vib
+ABB	PHAFIOFFH10000	Symphony Plus I/O input module	dcs
+ABB	PM860K01 3BSE018100R1	AC 800M processor unit kit	dcs
+ABB	GFD233A 3BHE022294R0101	Drive/excitation control board	drv
+ABB	PHARPS32200000	Multi-output power supply module (MPS III)	dcs
+ABB	DCF803-0035	Half-controlled 3-phase field exciter	drv
+ABB	DSIH75VP 57310290-RD	Operator keyboard	dcs
+ABB	SNAT 7261 QCP	Main interface board	drv
+ABB	NGDR-07C FF650R17IE4	IGBT module with gate driver	drv
+ABB	NGDR-07C FF1400R12IP4	IGBT module with gate driver	drv
+ABB	FS450R17KE3 AGDR-71C	IGBT module with gate driver	drv
+ABB	TU860	Ethernet master terminal unit	dcs
+ABB	TK856 3BSE057021R1	RCU control link cable	dcs
+ABB	TC810	Ethernet adapter	dcs
+ABB	CI845	Ethernet fieldbus communication interface	dcs
+ABB	NINT-42 58907952H	Main circuit interface board	drv
+ABB	RLM02 3BSE091723R1	PROFIBUS redundancy link module	dcs
+ABB	GJR2396200R1210 83SR51C-E	Control module	dcs
+ABB	ACSM1-04AM-04A0-4	ACSM1 drive module, IP20	drv
+Honeywell	10105/2/1	Safety Manager fail-safe high-density analog input module	sis
+Honeywell	FC-PDB-0824P	Safety Manager power distribution board	sis
+Honeywell	FC-RUSLS-3224	Safety Manager universal safety RIO module	sis
+Honeywell	FC-TSFIRE-1624	Fire & gas field termination assembly	sis
+Honeywell	TK-PRS022 51404305-575	C200E control processor assembly	dcs
+Honeywell	CC-PSV201 51454123-175	Experion C300 servo valve positioner module	dcs
+Honeywell	CC-TSV211 51306665-175	Experion C300 servo valve positioner IOTA	dcs
+Honeywell	DC-TUIO31 51307772-176	Experion analog input module	dcs
+Honeywell	CC-PPIX01 51410089-175	Experion C300 pulse input module	dcs
+Honeywell	CC-TAIX01 51308363-175	Experion C300 analog input module (TC/RTD/V/mA)	dcs
+Honeywell	FS-TSDO-04UNI	Safe digital output module	sis
+Honeywell	FC-TSDO-04UNI	Safe digital output module	sis
+Honeywell	FS-TRO-0824	Digital output module	sis
+Honeywell	FS-TSDO-0824	Safe digital output module	sis
+Honeywell	FS-TSAI-1620M	Analog input field termination assembly	sis
+Honeywell	FS-TSGAS-1624	Gas detection digital input FTA	sis
+Honeywell	FS-TPSU-2430	DC/DC converter	sis
+Honeywell	FS-TSRO-0824	Digital output field termination assembly	sis
+Honeywell	CSNK500M-600	Closed-loop current transducer	oth
+Emerson	KJ3222X1-BA1 12P2532X072	DeltaV analog output module	dcs
+Emerson	5X00790G01	Ovation OCC100 controller module	dcs
+Emerson	1C31169G02	Ovation link controller module	dcs
+Emerson	1C31166G02	Ovation serial link controller	dcs
+Emerson	KJ3241X1-BK1 SE4006P2	DeltaV serial interface card	dcs
+Emerson	KJ2005X1-BK1 SE3007	DeltaV SX controller	dcs
+Emerson	KJ1501X1-BC4 13P0063X052	DeltaV power supply	dcs
+Emerson	KL2101X1-BB1 SE6504	DeltaV CHARM I/O card	dcs
+Emerson	KJ3243X1-BK1 SE4022	DeltaV PROFIBUS DP interface card	dcs
+Emerson	KJ3246X1-BA1	DeltaV redundant power supply module	dcs
+Emerson	PR9268/601-000	Electrodynamic velocity sensor	vib
+Emerson	SP2401	Control Techniques AC drive	drv
+Emerson	M701-032 00106A	Unidrive M701 drive	drv
+Emerson	SPMC2402	Control Techniques input rectifier	drv
+Emerson	IC694CHS392D	PACSystems RX3i 10-slot expansion base	plc
+GE	IS215VPROH2BC	Mark VIe turbine protection board	tur
+GE	IS200WROBH1AAA	Mark VI distribution board	tur
+GE	IS420UCSCH1A	Mark VIe UCSC controller	tur
+GE	IS200TREAH1A	Turbine emergency trip terminal board	tur
+GE	IS200WREAH1A	Aero trip terminal board	tur
+GE	IS200TDBTH2ACD	Discrete I/O terminal board	tur
+GE	IS200VCMIH2BCD	Mark VI bus master controller board	tur
+GE	IS200VCMIH2CAA	Speedtronic VCMI communication board	tur
+GE	UR7KH	Multilin UR communications module	oth
+GE	IC693CPU374	Series 90-30 CPU module	plc
+GE	IC693CBL300	Series 90-30 I/O bus expansion cable	plc
+GE	IC693MDL753	Series 90-30 output module	plc
+GE	IC693PWR331D	Series 90-30 power supply module	plc
+GE	IC660BBA104	Genius current-source analog I/O block	plc
+GE	HE693THM884G	Thermocouple input module	plc
+GE	IC695CPU320	PACSystems RX3i CPU	plc
+GE	PCIE-5565PIORC-100A00	Reflective memory PCIe node card	net
+Yokogawa	VI702 S1	Vnet/IP interface card	dcs
+Yokogawa	CP333D S3	CENTUM CS 3000 FCS processor module	dcs
+Yokogawa	ANB10D-427/CU2T	Node interface unit	dcs
+Yokogawa	EC402-51	ESB bus coupler module	dcs
+Yokogawa	AFV30D-A41262	Duplexed field control unit	dcs
+Yokogawa	SNB10D-425/CU2T	ProSafe-RS safety node unit	sis
+Yokogawa	S2SC70D-FA412010	Control unit	dcs
+Yokogawa	ALF111-S50	Foundation Fieldbus communication module	dcs
+Yokogawa	CP401-10 S1	Processor module	dcs
+Yokogawa	AAI143	Analog input module 4–20 mA, 16 ch	dcs
+Yokogawa	MX100-J-1W/SL3	Data acquisition unit	oth
+Yokogawa	MW100-E-3W/C2	Data acquisition unit	oth
+Foxboro	FCP270 P0917YZ	I/A Series field control processor	dcs
+Foxboro	FBM232 P0926GW	Field device system integrator, Ethernet	dcs
+Foxboro	FBM233 P0926GX	Redundant Ethernet communication module	dcs
+Foxboro	FBM217 P0914TR	Discrete input module, high density	dcs
+Foxboro	FBM214	HART communication input module	dcs
+Foxboro	FCM2F10 P0916TQ	Fieldbus communication module	dcs
+Foxboro	P0926JMA	Baseplate module	dcs
+Foxboro	P0903CV	Annunciator keyboard, RS-485	dcs
+Foxboro	P0961CA	Fiber-optic LAN module	dcs
+Foxboro	T2550	Programmable automation controller	dcs
+HIMA	K1409	H41q system subrack, 19"	sis
+HIMA	F8652X	Central module	sis
+HIMA	X-CPU01	HIMax processor module, SIL 3	sis
+HIMA	X-COM01	HIMax communication module	sis
+HIMA	X-AO1601	HIMax analog output module, 16 ch	sis
+HIMA	X-DI3201	HIMax digital input module, 32 ch	sis
+HIMA	X-AI3201	HIMax analog input module	sis
+HIMA	F60CPU01	HIMatrix F60 safety controller, SIL 3	sis
+HIMA	F60MI2401	HIMatrix F60 digital input module, 24 ch	sis
+HIMA	F60AO801	HIMatrix F60 analog output module	sis
+HIMA	F3DIO16/801	HIMatrix remote I/O 16 DI / 8 DO, SIL 3	sis
+HIMA	F8620/11	CPU module	sis
+ICS Triplex	T8800	Trusted 40-channel 24 V digital input module (TMR)	sis
+ICS Triplex	T8193	Trusted digital input module	sis
+ICS Triplex	T9431	AADvance analogue input module, 8 ch	sis
+ICS Triplex	T9082U	Single controller (AADvance)	sis
+ICS Triplex	T7481	Regent monitored guarded output module	sis
+ICS Triplex	T8290C	Trusted output power distribution unit	sis
+ICS Triplex	T8231C	Trusted 750 W power pack	sis
+ICS Triplex	T8842	Fire & gas versatile field termination assembly	sis
+ICS Triplex	T8240	Trusted power supply module	sis
+ICS Triplex	T9833	AADvance termination assembly	sis
+Woodward	5437-2131	ProTech-GII overspeed protection device	tur
+Woodward	8440-2082	easYgen-3500XT-P1 genset controller	tur
+Woodward	9907-347	Overspeed protection module	tur
+Woodward	9907-147	ProTech overspeed protection module	tur
+Woodward	5464-654	MicroNet discrete output module	tur
+Woodward	5464-333	MicroNet thermocouple input module	tur
+Woodward	5464-334	MicroNet analog input module, 8 ch 4–20 mA	tur
+Woodward	5466-348	NetCon SIO module, 3× RS-485	tur
+Woodward	5501-470	CPU module	tur
+Woodward	5466-354	MicroNet CPU module	tur
+Woodward	8440-1947	Generator set controller	tur
+Schneider	140NOE77111	Modicon Quantum Ethernet module	plc
+Schneider	BMXP3420302	Modicon M340 processor	plc
+Schneider	BMXDDO1602	Modicon X80 discrete output 16 × 24 VDC	plc
+Schneider	BMXDDI3202K	Modicon X80 discrete input 32 ch	plc
+Schneider	BMXAMO0802	Modicon X80 analog output 8 ch	plc
+Schneider	BMXAMI0800	Modicon X80 analog input 8 ch	plc
+Schneider	171CCS76000	Modicon Momentum M1E processor adapter	plc
+Schneider	170ENT11000	Modicon Momentum Ethernet adapter	plc
+Schneider	ATV61HD75N4	Altivar 61 drive, 75 kW 400 V	drv
+Schneider	MICROLOGIC 6.0 E	Masterpact NW trip unit, LSIG	lv
+Rockwell / Allen-Bradley	1756-L64	ControlLogix Logix5564 processor	plc
+Rockwell / Allen-Bradley	1794-IRT8	FLEX I/O thermocouple/RTD module	plc
+Rockwell / Allen-Bradley	1794-IE12	FLEX I/O analog input module	plc
+Rockwell / Allen-Bradley	1794-IV32	FLEX I/O digital input, 32 ch	plc
+Rockwell / Allen-Bradley	1794-OV32	FLEX I/O digital output, 32 ch	plc
+Rockwell / Allen-Bradley	1794-OM8	FLEX I/O digital output module	plc
+Rockwell / Allen-Bradley	1769-OF8C	CompactLogix analog output, 8 ch	plc
+Rockwell / Allen-Bradley	2711P-K10C4D8	PanelView Plus operator interface	hmi
+Rockwell / Allen-Bradley	2711-K6C2L1	PanelView 600 operator terminal	hmi
+Rockwell / Allen-Bradley	1784-CF64	CompactFlash memory card 64 MB	plc
+Rockwell / Allen-Bradley	193-EC2CB	E3 Plus overload relay	lv
+Rockwell / Allen-Bradley	2094-AC09-M02-S	Kinetix 6000 integrated axis module	drv
+Rockwell / Allen-Bradley	1503VC-BMC5-MC1	Vacuum contactor control module	lv
+ProSoft	PLX31-EIP-MBTCP	EtherNet/IP ↔ Modbus TCP gateway	net

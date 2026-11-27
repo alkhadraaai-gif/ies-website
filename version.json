@@ -1,9 +1,9 @@
 {
   "site": "Al-Khadraa IES Website",
   "id": "IES-26-001-WEB",
-  "revision": "R6",
-  "release_id": "IES-26-001-WEB-R6",
-  "release_date": "2026-11-26",
+  "revision": "R7",
+  "release_id": "IES-26-001-WEB-R7",
+  "release_date": "2026-11-27",
   "status": "Test",
   "domain": "al-khadraa.ai",
   "history": [
@@ -51,6 +51,13 @@
       "status": "Test",
       "domain": "al-khadraa.ai",
       "notes": "Photos from the 2014 Mercury website archive: SCADA control centre on SCADA card and Telecom & SCADA tab; 8 new gallery photos (EN+AR); approved 26.11.2026 and Active on al-khadraa.com"
+    },
+    {
+      "revision": "R7",
+      "date": "2026-11-27",
+      "status": "Test",
+      "domain": "al-khadraa.ai",
+      "notes": "IES Store Phase 1 (quote-only) at /store and /ar/store: 85 published warehouse items, 70 Supmea models, 196 legacy DCS/PLC spares; RFQ cart; Store link in menus"
     }
   ],
   "production": "al-khadraa.com on GoDaddy Web Hosting (cPanel), release IES-26-001-WEB-R6 Active",
