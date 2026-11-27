@@ -11,8 +11,8 @@ T = {
   title='IES Store | Automation spares, Siemens stock & Supmea instruments, Iraq',
   desc='Request a quotation for PLC, DCS and safety-system spares, in-stock Siemens items in Baghdad and Supmea process instruments. Al-Khadraa IES, Iraq.',
   home='index.html', brand_b='Al-Khadraa IES', brand_s='Integrated Engineering Services', logo_alt='IES logo', menu='Menu', mainnav='Main',
-  nav=[('Services','index.html#capabilities'),('Projects','projects.html'),('Store','store/'),('Contact','index.html#contact')],
-  lang_href='ar/store/', lang_lbl='عربي', lang_code='ar', cta='Request a quote',
+  nav=[('Services','index.html#capabilities'),('Projects','projects.html'),('Store','store/'),('Help','store/help/'),('Contact','index.html#contact')],
+  lang_href='../ar/store/', lang_lbl='عربي', lang_code='ar', cta='Request a quote',
   live='IES Store · Phase 1 · Quotation only',
   h1='Automation parts, found and quoted <span style="color:var(--green)">in one working day.</span>',
   lead='Search IES stock in Baghdad, configure Supmea process instruments, or paste a list of legacy DCS / PLC part numbers. Build one request and our engineers reply with a quotation.',
@@ -36,13 +36,13 @@ T = {
   company='Company *', name='Contact name *', phone='Phone / WhatsApp *', email='Email', city='Delivery city', proj='Project / PO reference', date='Required by', msg='Message',
   send='Send RFQ', alt_mail='Email', alt_wa='WhatsApp', alt_csv='Download (CSV)', reply='IES engineers reply with a quotation within one working day (Saturday–Thursday).',
   fab='RFQ', test='Test site — RFQs from here open your email app or WhatsApp. Stock list as of', copy='© {y} Al-Khadraa Integrated Engineering Services Co. Ltd.',
-  fnav=[('Services','index.html#capabilities'),('Projects','projects.html'),('Store','store/'),('Contact','index.html#contact')], flang=('ar/store/','العربية','ar'),
+  fnav=[('Services','index.html#capabilities'),('Projects','projects.html'),('Store','store/'),('Help','store/help/'),('Contact','index.html#contact')], flang=('../ar/store/','العربية','ar'),
  ),
  'ar': dict(
   title='متجر IES | قطع غيار الأتمتة، مخزون سيمنس وأجهزة Supmea في العراق',
   desc='اطلب عرض سعر لقطع غيار PLC وDCS وأنظمة السلامة، ومواد سيمنس المتوفرة في بغداد، وأجهزة القياس من Supmea. شركة الخضراء للخدمات الهندسية المتكاملة.',
   home='index.html', brand_b='الخضراء للخدمات الهندسية', brand_s='الخدمات الهندسية المتكاملة', logo_alt='شعار IES', menu='القائمة', mainnav='القائمة الرئيسية',
-  nav=[('خدماتنا','index.html#capabilities'),('المشاريع','projects.html'),('المتجر','store/'),('تواصل معنا','index.html#contact')],
+  nav=[('خدماتنا','index.html#capabilities'),('المشاريع','projects.html'),('المتجر','store/'),('المساعدة','store/help/'),('تواصل معنا','index.html#contact')],
   lang_href='../../store/', lang_lbl='English', lang_code='en', cta='اطلب عرض سعر',
   live='متجر IES · المرحلة الأولى · عروض أسعار فقط',
   h1='قطع الأتمتة، نجدها ونسعّرها <span style="color:var(--green)">خلال يوم عمل واحد.</span>',
@@ -67,7 +67,7 @@ T = {
   company='الشركة *', name='اسم الشخص المسؤول *', phone='الهاتف / واتساب *', email='البريد الإلكتروني', city='مدينة التسليم', proj='المشروع / رقم أمر الشراء', date='مطلوب قبل', msg='رسالة',
   send='أرسل طلب التسعير', alt_mail='بريد', alt_wa='واتساب', alt_csv='تنزيل (CSV)', reply='يرد مهندسو IES بعرض سعر خلال يوم عمل واحد (السبت–الخميس).',
   fab='الطلب', test='موقع تجريبي — طلبات التسعير من هنا تفتح البريد أو واتساب. قائمة المخزن بتاريخ', copy='© {y} شركة الخضراء للخدمات الهندسية المتكاملة المحدودة',
-  fnav=[('خدماتنا','index.html#capabilities'),('المشاريع','projects.html'),('المتجر','store/'),('تواصل معنا','index.html#contact')], flang=('../../store/','English','en'),
+  fnav=[('خدماتنا','index.html#capabilities'),('المشاريع','projects.html'),('المتجر','store/'),('المساعدة','store/help/'),('تواصل معنا','index.html#contact')], flang=('../../store/','English','en'),
  )}
 
 def page(lang):
@@ -78,6 +78,7 @@ def page(lang):
     path = 'ar/store/' if ar else 'store/'
     url = f'{base}/{path}'
     def L(h):  # link relative to language home
+        if h == 'store/help/': return 'help/'
         if h.startswith('store/'): return './'
         return site + h
     nav = ''.join(f'<a href="{L(h)}"' + (' aria-current="page"' if h == 'store/' else '') + f'>{n}</a>' for n, h in t['nav'])
@@ -221,7 +222,7 @@ def page(lang):
 <label>{t['city']}<input name="city"></label>
 <label>{t['proj']}<input name="project"></label>
 <label>{t['date']}<input name="date" type="date"></label>
-<label style="position:absolute;left:-9999px" aria-hidden="true">Website<input id="hp" name="hp" tabindex="-1" autocomplete="off"></label>
+<label class="hpf" aria-hidden="true">Website<input id="hp" name="hp" tabindex="-1" autocomplete="off"></label>
 <label class="w">{t['msg']}<textarea name="msg" rows="3"></textarea></label>
 </form>
 </div>

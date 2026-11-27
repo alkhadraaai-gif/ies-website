@@ -198,7 +198,7 @@
     var ex = cart.filter(function (l) { return l.k === line.k; })[0];
     if (ex) ex.qty += qty || 1; else { line.qty = qty || 1; cart.push(line); }
     save(); var f = $('.fab'); f.classList.remove('bump'); void f.offsetWidth; f.classList.add('bump');
-    toast(T('toast', { pn: line.pn }));
+    toast(T('toast', { pn: '\u2066' + line.pn + '\u2069' }));
   }
   function addItem(it, qty) { addLine({ k: it.k, pn: it.pn, d: (it.src === 'spare' ? it.mfr + ' — ' : '') + it.d, src: it.src === 'spare' ? 'sourcing' : it.src, img: it.img || '' }, qty); }
   function renderCart() {
@@ -287,11 +287,11 @@
       if (m && m[1].trim().length >= 3) { pn = m[1].trim().replace(/[,;]$/, ''); q = parseInt(m[2], 10); }
       pn = pn.replace(/^\d+[.)]\s+/, ''); a++;
       var np = norm(pn), hit = ITEMS.filter(function (it) { return it.src === 'stock' && norm(it.pn) === np; })[0];
-      if (hit) { b++; addItem(hit, q); log.push('<div class="ok">✓ ' + esc(hit.pn) + ' × ' + q + ' — ' + T('found') + '</div>'); return; }
+      if (hit) { b++; addItem(hit, q); log.push('<div class="ok">✓ <bdi dir="ltr">' + esc(hit.pn) + ' × ' + q + '</bdi> — ' + T('found') + '</div>'); return; }
       c++;
       var sp = ITEMS.filter(function (it) { return it.src === 'spare' && (norm(it.pn) === np || norm(it.pn.split(' ')[0]) === np); })[0];
-      if (sp) { addItem(sp, q); log.push('<div class="src2">→ ' + esc(sp.pn) + ' × ' + q + ' — ' + T('listed') + '</div>'); }
-      else { addLine({ k: 'X:' + np, pn: pn, d: $('#bomBrand').value || '', src: 'sourcing' }, q); log.push('<div class="src2">→ ' + esc(pn) + ' × ' + q + ' — ' + T('toSource') + '</div>'); }
+      if (sp) { addItem(sp, q); log.push('<div class="src2">→ <bdi dir="ltr">' + esc(sp.pn) + ' × ' + q + '</bdi> — ' + T('listed') + '</div>'); }
+      else { addLine({ k: 'X:' + np, pn: pn, d: $('#bomBrand').value || '', src: 'sourcing' }, q); log.push('<div class="src2">→ <bdi dir="ltr">' + esc(pn) + ' × ' + q + '</bdi> — ' + T('toSource') + '</div>'); }
     });
     if (a) { $('#bomLog').innerHTML = '<p><b>' + T('lines', { a: a, b: b, c: c }) + '</b></p>' + log.join(''); $('#bom').value = ''; }
   }

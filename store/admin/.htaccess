@@ -1,0 +1,5 @@
+# IES Store RFQ Admin
+Options -Indexes
+<FilesMatch "\.(md|txt|log|json)$">
+  Require all denied
+</FilesMatch>

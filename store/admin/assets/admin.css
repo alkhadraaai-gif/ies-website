@@ -1,0 +1,68 @@
+/* IES Store RFQ Admin – IES palette (HWTP-001-OFR Rev0.3) */
+:root{--navy:#243F60;--blue:#4F81BD;--lb:#DBE5F1;--bd:#95B3D7;--grn:#D6E3BC;--ink:#000;--mut:#5a6577}
+*{box-sizing:border-box}[hidden]{display:none!important}
+body{margin:0;font:15px/1.5 Calibri,"Segoe UI",Tahoma,"Noto Sans Arabic",Arial,sans-serif;color:var(--ink);background:#f4f7fb}
+html[dir=rtl] body{font-family:"Segoe UI",Tahoma,"Noto Sans Arabic",Arial,sans-serif}
+.wrap{max-width:1180px;margin:0 auto;padding:0 18px}
+a{color:#1f5aa0}
+.top{background:var(--navy);color:#fff}
+.top .wrap{display:flex;align-items:center;gap:14px;min-height:62px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none;font-weight:700;font-size:17px;margin-inline-end:auto}
+.logo{background:#fff;border-radius:10px;padding:4px 7px;display:inline-flex}.logo img{height:34px}
+.nav{display:flex;gap:4px;flex-wrap:wrap}
+.nav a{color:#fff;text-decoration:none;padding:10px 11px;border-radius:8px;min-height:44px;display:inline-flex;align-items:center}
+.nav a:hover,.nav a[aria-current]{background:rgba(255,255,255,.14)}
+.nav a.lang{border:1px solid rgba(255,255,255,.4)}
+.burger{display:none;background:none;border:1px solid rgba(255,255,255,.5);color:#fff;font-size:20px;border-radius:8px;min-width:44px;min-height:44px}
+main.wrap{padding-top:22px;padding-bottom:40px}
+h1{color:var(--blue);font-size:26px;margin:6px 0 14px}h2{color:var(--navy);font-size:18px;margin:0 0 12px;text-transform:uppercase;border-bottom:2px solid var(--blue);padding-bottom:4px}h3{color:#365F91;text-transform:uppercase;font-size:15px}
+.card{background:#fff;border:1px solid var(--bd);border-radius:10px;padding:18px;margin-bottom:18px}
+.narrow{max-width:440px;margin:30px auto}
+.signin{text-align:center}.signin label{text-align:start}.biglogo{height:86px;margin:6px auto 4px;display:block}
+label{display:block;margin:0 0 12px;font-weight:600;color:var(--navy)}
+input,select,textarea{display:block;width:100%;margin-top:5px;padding:10px;border:1px solid var(--bd);border-radius:7px;font:inherit;min-height:44px;background:#fff}
+input[type=file]{padding:8px}
+.btn{display:inline-flex;align-items:center;gap:6px;background:var(--blue);color:#fff;border:0;border-radius:8px;padding:10px 18px;font:inherit;font-weight:700;cursor:pointer;text-decoration:none;min-height:44px}
+.btn:hover{background:#3d6ca5}.btn:disabled{opacity:.6}
+.btn-o{background:#fff;color:var(--blue);border:2px solid var(--blue)}.btn-o:hover{background:var(--lb)}
+.btn-s{padding:6px 12px;min-height:36px;font-size:14px}
+.head{display:flex;align-items:center;gap:12px;flex-wrap:wrap;justify-content:space-between}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}.grid2 .card{margin:0}
+.grid2{margin-bottom:18px}
+.kpis{display:grid;grid-template-columns:repeat(7,1fr);gap:10px;margin-bottom:14px}
+.kpi{background:#fff;border:1px solid var(--bd);border-radius:10px;padding:10px 12px;text-decoration:none;color:var(--navy);border-inline-start:5px solid var(--blue)}
+.kpi b{display:block;font-size:24px}.kpi span{font-size:13px}.kpi.on{background:var(--lb);outline:2px solid var(--blue)}
+.search{display:flex;gap:10px;margin-bottom:14px}.search input{margin:0}
+.tbl{width:100%;border-collapse:collapse}
+.tbl th{background:var(--blue);color:#fff;text-align:start;padding:9px 10px;border:1px solid var(--blue);font-weight:700}
+.tbl td{padding:8px 10px;border:1px solid var(--bd);vertical-align:top}
+.tbl tbody tr:nth-child(odd){background:var(--lb)}
+.rowlink{cursor:pointer}.rowlink:hover{background:#c5d6ec!important}
+.mono{font-family:Consolas,"IBM Plex Mono",monospace}
+.badge{display:inline-block;padding:3px 10px;border-radius:20px;font-size:13px;font-weight:700;background:#e5e9f0;color:#333}
+.st-new{background:#fff3cd;color:#7a5600}.st-in-progress{background:#dbe5f1;color:#243F60}.st-quoted{background:#d6e3bc;color:#3b5a12}
+.st-won{background:#2e7d32;color:#fff}.st-lost{background:#f8d7da;color:#8a1c24}.st-closed{background:#e5e9f0;color:#444}
+.kpi.st-new{border-inline-start-color:#e0a800}.kpi.st-quoted{border-inline-start-color:#76923C}.kpi.st-won{border-inline-start-color:#2e7d32}.kpi.st-lost{border-inline-start-color:#c62828}.kpi.st-closed{border-inline-start-color:#888}
+.kpi.st-won,.kpi.st-lost,.kpi.st-new,.kpi.st-quoted,.kpi.st-closed,.kpi.st-in-progress{background:#fff;color:var(--navy)}.kpi.on{background:var(--lb)}
+.kv{display:grid;grid-template-columns:150px 1fr;gap:6px 12px;margin:0}.kv dt{font-weight:700;color:var(--navy)}.kv dd{margin:0}
+.msg{background:var(--lb);padding:10px;border-radius:8px;white-space:normal}
+.notes{list-style:none;padding:0;margin:14px 0 0}.notes li{border-inline-start:4px solid var(--grn);background:#f7faf1;padding:8px 10px;margin-bottom:8px;border-radius:6px}
+.flash{padding:12px 14px;border-radius:8px;font-weight:600}.flash.ok{background:#e3f1d8;border:1px solid #76923C}.flash.err{background:#fbe3e5;border:1px solid #c62828}.flash.warn{background:#fff3cd;border:1px solid #e0a800}
+.sum{list-style:none;padding:0;display:flex;gap:18px;flex-wrap:wrap}.sum li{background:var(--lb);padding:8px 14px;border-radius:8px}
+.apply{max-width:420px;margin-top:14px}
+.help h2{margin-top:26px}.help li{margin-bottom:6px}.help .toc{background:var(--lb);border-radius:8px;padding:10px 26px}.help kbd{background:#eee;border:1px solid #ccc;border-radius:4px;padding:0 5px}
+.foot{background:var(--navy);color:#dbe5f1;font-size:13px;padding:14px 0}.foot .wrap{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+bdi{unicode-bidi:isolate}
+@media (max-width:900px){.kpis{grid-template-columns:repeat(4,1fr)}.grid2{grid-template-columns:1fr}}
+@media (max-width:700px){
+ .burger{display:inline-flex;align-items:center;justify-content:center}.nav{display:none;width:100%;flex-direction:column;padding-bottom:10px}.nav.open{display:flex}
+ .kpis{grid-template-columns:repeat(3,1fr)}.kv{grid-template-columns:1fr}.search{flex-direction:column}
+ .tbl thead{display:none}.tbl tr{display:block;border:1px solid var(--bd);border-radius:8px;margin-bottom:10px;background:#fff!important;padding:6px}
+ .tbl td{display:flex;gap:10px;border:0;padding:5px 6px}.tbl td::before{content:attr(data-label);font-weight:700;color:var(--navy);min-width:110px}
+ h1{font-size:22px}
+}
+@media print{.top,.foot,.btn,.search,.kpis{display:none}body{background:#fff}.card{border:0}}
+/* data in mixed languages: direction follows the text itself */
+.tbl td,.kv dd,.msg,.notes li{unicode-bidi:plaintext}
+html[dir=rtl] .tbl td,html[dir=rtl] .kv dd{text-align:right}
+.tbl td.mono::before{font-family:"Segoe UI",Tahoma,"Noto Sans Arabic",Arial,sans-serif}

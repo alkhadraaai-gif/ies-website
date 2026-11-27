@@ -57,9 +57,15 @@
       "date": "2026-11-27",
       "status": "Test",
       "domain": "al-khadraa.ai",
-      "notes": "IES Store Phase 1 (quote-only) at /store and /ar/store: 85 published warehouse items, 70 Supmea models, 196 legacy DCS/PLC spares; RFQ cart; Store link in menus; R7.1 (27.11.2026): Industrial / Building divisions, product pictures (Siemens + Supmea manufacturer images, placeholders for other legacy brands)"
+      "notes": "IES Store Phase 1 (quote-only) at /store and /ar/store: 85 published warehouse items, 70 Supmea models, 196 legacy DCS/PLC spares; RFQ cart; Store link in menus; R7.1 (27.11.2026): Industrial / Building divisions, product pictures (Siemens + Supmea manufacturer images, placeholders for other legacy brands); R7.2 (27.11.2026): spare-part pictures, 4–6 weeks delivery label, availability filter in every section; R7.3 (27.11.2026): customer Help pages EN/AR (/store/help/), RFQ Admin at /store/admin/ (RFQ register, status and notes, Excel export, backup and verified restore, audit log, bilingual), fixed EN→Arabic language link on the store page, Arabic display of part numbers in pasted-list results, toast and Supmea options, Arabic RFQ form overflow, offline backup tool (tools/backup_store.py), cache tag r7d"
     }
   ],
   "production": "al-khadraa.com on GoDaddy Web Hosting (cPanel), release IES-26-001-WEB-R6 Active",
-  "repository": "github.com/alkhadraaai-gif/ies-website"
+  "repository": "github.com/alkhadraaai-gif/ies-website",
+  "store": {
+    "release": "R7.3",
+    "date": "2026-11-27",
+    "status": "Test",
+    "admin": "store/admin v1.0.0"
+  }
 }

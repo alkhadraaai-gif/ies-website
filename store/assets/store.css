@@ -148,10 +148,10 @@ html[dir="rtl"] .drawer{transform:translateX(-105%)}
 .line .rm{border:0;background:none;color:#A33;cursor:pointer;font-size:18px;width:32px;height:32px}
 .line .note{grid-column:1 / -1;font:inherit;font-size:13px;border:1px solid var(--line);border-radius:8px;padding:7px 10px}
 .line .src3{font-size:11px;font-weight:600;color:var(--blue)}
-.dr-f{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.dr-f{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
 .dr-f label{display:flex;flex-direction:column;gap:5px;font-size:13px;color:var(--mut)}
 .dr-f label.w{grid-column:1 / -1}
-.dr-f input,.dr-f textarea,.dr-f select{font:inherit;font-size:15px;border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:#fff;min-height:44px}
+.dr-f input,.dr-f textarea,.dr-f select{min-width:0;width:100%;box-sizing:border-box;font:inherit;font-size:15px;border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:#fff;min-height:44px}
 .dr-f input:focus,.dr-f textarea:focus{outline:none;border-color:var(--blue-2)}
 .dr-f input:user-invalid{border-color:#d66}
 .dr-ft{padding:16px 22px;border-top:1px solid var(--line);background:#fff;display:flex;flex-direction:column;gap:10px}
@@ -310,3 +310,7 @@ html[lang="ar"] .count,html[lang="ar"] .resbar .count{font-family:var(--f-body);
 .tg{white-space:nowrap}.tags{align-items:center}
 .prod .pb .spec{grid-template-columns:1fr;gap:3px}
 .repb{position:absolute;bottom:8px;inset-inline-start:8px;font-size:10.5px;background:rgba(7,19,31,.75);color:#fff;padding:2px 7px;border-radius:6px}
+/* R7.3: keep Latin option text and codes in order on Arabic pages */
+html[dir=rtl] .modal select{direction:ltr}html[dir=rtl] .modal input{unicode-bidi:plaintext}
+bdi{unicode-bidi:isolate}
+.hpf{position:absolute!important;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
