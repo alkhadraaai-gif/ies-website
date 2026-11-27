@@ -38,6 +38,7 @@ CAT = {"PLC": "plc", "Remote I/O": "rio", "HMI": "hmi", "Power Supply": "psu", "
        "Process Instrumentation": "inst", "Fire": "fire", "BMS": "bms", "KNX": "knx", "LV Controls": "lv",
        "Accessories": "acc", "Other": "oth"}
 BLD_SENSORS = re.compile(r"^(QF|QV|QA|QB|QP|QX|AQF|QAE|QAA|QAM)", re.I)
+REP = set(json.load(open(os.path.join(HERE, "store_images_rep.json")))) if os.path.exists(os.path.join(HERE, "store_images_rep.json")) else set()
 imgs = json.load(open(os.path.join(HERE, "store_images.json"), encoding="utf-8")) if os.path.exists(os.path.join(HERE, "store_images.json")) else {}
 
 out_items = []
@@ -83,7 +84,9 @@ for m in sup["supmea"]:
     out_items.append(x)
 for s in sup["spares"]:
     k = "R:" + s["b"] + ":" + s["pn"]
-    out_items.append({"k": k, "src": "spare", "sec": ["ind:spr"], "pn": s["pn"], "d": s["d"], "mfr": s["b"], "t": s["c"], "img": imgs.get(k, "")})
+    x = {"k": k, "src": "spare", "sec": ["ind:spr"], "pn": s["pn"], "d": s["d"], "mfr": s["b"], "t": s["c"], "img": imgs.get(k, "")}
+    if k in REP and x["img"]: x["rep"] = 1
+    out_items.append(x)
 
 data = {"generated": datetime.datetime.now().strftime("%Y-%m-%d %H:%M"), "source": os.path.basename(src), "items": out_items}
 json.dump(data, open(out, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))

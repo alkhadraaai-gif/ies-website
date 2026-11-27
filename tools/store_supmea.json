@@ -23,7 +23,7 @@
      "Wafer"
     ]
    },
-   "lead": "3–5",
+   "lead": "4–6",
    "ds": "https://www.supmeaauto.com/uploads-lm/2408/ldg-sup-electromagnetic-flowmeter-datasheet.pdf"
   },
   {
@@ -47,7 +47,7 @@
      "Flange ASME Cl.150"
     ]
    },
-   "lead": "3–5"
+   "lead": "4–6"
   },
   {
    "m": "LWGY-SUP",
@@ -71,7 +71,7 @@
      "Flange"
     ]
    },
-   "lead": "3–5",
+   "lead": "4–6",
    "ds": "https://www.supmeaauto.com/uploads-lm/2407/sup-lwgy--c-turbine-flow-meter-yh-datasheet.pdf"
   },
   {
@@ -96,7 +96,7 @@
      "Wafer"
     ]
    },
-   "lead": "3–5",
+   "lead": "4–6",
    "ds": "https://www.supmeaauto.com/uploads/2310/sup-lugb-vortex-flow-meter-datasheet.pdf"
   },
   {
@@ -120,7 +120,7 @@
      "Flange"
     ]
    },
-   "lead": "3–5",
+   "lead": "4–6",
    "ds": "https://www.supmeaauto.com/uploads-lm/2407/sup-mf.pdf"
   },
   {
@@ -143,7 +143,7 @@
      "Clamp-on transducers"
     ]
    },
-   "lead": "2–4",
+   "lead": "4–6",
    "eval": true,
    "ds": "https://www.supmeaauto.com/uploads-lm/2407/sup-1158s-ultrasonic-flow-meter-datasheet.pdf"
   },
@@ -168,7 +168,7 @@
      "Flange"
     ]
    },
-   "lead": "3–5",
+   "lead": "4–6",
    "ds": "https://www.supmeaauto.com/uploads-lm/2505/rotameter-datasheet-7808.pdf"
   },
   {
@@ -222,7 +222,7 @@
      "Flange ASME Cl.150"
     ]
    },
-   "lead": "3–5",
+   "lead": "4–6",
    "eval": true
   },
   {
@@ -249,7 +249,7 @@
      "Thread G2"
     ]
    },
-   "lead": "2–4",
+   "lead": "4–6",
    "eval": true
   },
   {
@@ -277,7 +277,7 @@
      "Flange"
     ]
    },
-   "lead": "3–5"
+   "lead": "4–6"
   },
   {
    "m": "SUP-RD903",
@@ -303,7 +303,7 @@
      "Flange"
     ]
    },
-   "lead": "3–5"
+   "lead": "4–6"
   },
   {
    "m": "SUP-RD701",
@@ -331,7 +331,7 @@
      "Flange"
     ]
    },
-   "lead": "3–5"
+   "lead": "4–6"
   },
   {
    "m": "SUP-MP",
@@ -356,7 +356,7 @@
      "Thread G2"
     ]
    },
-   "lead": "2–4",
+   "lead": "4–6",
    "eval": true
   },
   {
@@ -384,7 +384,7 @@
      "Cable (state length)"
     ]
    },
-   "lead": "2–4"
+   "lead": "4–6"
   },
   {
    "m": "SUP-P300",
@@ -409,7 +409,7 @@
      "G¼"
     ]
    },
-   "lead": "2–4",
+   "lead": "4–6",
    "eval": true
   },
   {
@@ -433,7 +433,7 @@
      "M20×1.5"
     ]
    },
-   "lead": "2–4"
+   "lead": "4–6"
   },
   {
    "m": "SUP-P300G",
@@ -455,7 +455,7 @@
      "M20×1.5"
     ]
    },
-   "lead": "2–4"
+   "lead": "4–6"
   },
   {
    "m": "SUP-P3000",
@@ -478,7 +478,7 @@
      "Flange"
     ]
    },
-   "lead": "3–5"
+   "lead": "4–6"
   },
   {
    "m": "SUP-2051",
@@ -500,7 +500,7 @@
      "Remote seals"
     ]
    },
-   "lead": "3–5"
+   "lead": "4–6"
   },
   {
    "m": "SUP-Y290",
@@ -523,7 +523,7 @@
      "½\" NPT"
     ]
    },
-   "lead": "2–4"
+   "lead": "4–6"
   },
   {
    "m": "SUP-WZPK",
@@ -551,7 +551,7 @@
      "Flange"
     ]
    },
-   "lead": "2–4",
+   "lead": "4–6",
    "eval": true
   },
   {
@@ -578,7 +578,7 @@
      "Flange"
     ]
    },
-   "lead": "2–4"
+   "lead": "4–6"
   },
   {
    "m": "SUP-ST500",
@@ -603,7 +603,7 @@
      "DIN-rail"
     ]
    },
-   "lead": "2–4"
+   "lead": "4–6"
   },
   {
    "m": "SUP-PH6.5",
@@ -629,7 +629,7 @@
      "Controller only"
     ]
    },
-   "lead": "2–4"
+   "lead": "4–6"
   },
   {
    "m": "SUP-TDS210-B",
@@ -656,7 +656,7 @@
      "Controller only"
     ]
    },
-   "lead": "2–4"
+   "lead": "4–6"
   },
   {
    "m": "SUP-PTU300",
@@ -683,7 +683,7 @@
      "Controller only"
     ]
    },
-   "lead": "3–5"
+   "lead": "4–6"
   },
   {
    "m": "MDX500",
@@ -731,7 +731,7 @@
      "Panel mount"
     ]
    },
-   "lead": "2–4"
+   "lead": "4–6"
   },
   {
    "m": "SUP-TRC400",
@@ -757,7 +757,7 @@
      "Controller only"
     ]
    },
-   "lead": "3–5"
+   "lead": "4–6"
   },
   {
    "m": "SUP-DO-7018",
@@ -781,7 +781,7 @@
      "Immersion"
     ]
    },
-   "lead": "3–5"
+   "lead": "4–6"
   },
   {
    "m": "SUP-RN3000",
@@ -807,7 +807,7 @@
      "Panel mount"
     ]
    },
-   "lead": "2–4"
+   "lead": "4–6"
   },
   {
    "m": "SUP-RN6500",
@@ -833,7 +833,7 @@
      "Panel mount"
     ]
    },
-   "lead": "2–4"
+   "lead": "4–6"
   },
   {
    "m": "SUP-R6000C",
@@ -859,7 +859,7 @@
      "Panel mount"
     ]
    },
-   "lead": "2–4"
+   "lead": "4–6"
   },
   {
    "m": "SUP-R1200",
@@ -884,7 +884,7 @@
      "Panel mount"
     ]
    },
-   "lead": "2–4"
+   "lead": "4–6"
   },
   {
    "m": "LDG-SUP-A100",
@@ -909,7 +909,7 @@
      "Wafer"
     ]
    },
-   "lead": "3–5",
+   "lead": "4–6",
    "ds": "https://www.supmeaauto.com/uploads-lm/2611/ldg-sup-a100-eletromagnetic-flowmeter_datasheet.pdf"
   },
   {
@@ -935,7 +935,7 @@
      "Wafer"
     ]
    },
-   "lead": "3–5",
+   "lead": "4–6",
    "ds": "https://www.supmeaauto.com/uploads-lm/2611/ldg-sup-a100d-explosion-proof-electromagnetic-flowmeter-datasheet.pdf"
   },
   {
@@ -961,7 +961,7 @@
      "Wafer"
     ]
    },
-   "lead": "3–5",
+   "lead": "4–6",
    "ds": "https://www.supmeaauto.com/uploads-lm/2611/fmc400-datasheet.pdf"
   },
   {
@@ -987,7 +987,7 @@
      "Wafer"
     ]
    },
-   "lead": "3–5"
+   "lead": "4–6"
   },
   {
    "m": "SUP-LDG-I",
@@ -1009,7 +1009,7 @@
      "Insertion"
     ]
    },
-   "lead": "3–5",
+   "lead": "4–6",
    "ds": "https://www.supmeaauto.com/uploads-lm/2407/insertion-type-electromagnetic-flowmeter.pdf"
   },
   {
@@ -1035,7 +1035,7 @@
      "Wafer"
     ]
    },
-   "lead": "3–5",
+   "lead": "4–6",
    "ds": "https://www.supmeaauto.com/uploads-lm/2407/btu-meter-datasheet.pdf"
   },
   {
@@ -1061,7 +1061,7 @@
      "Wafer"
     ]
    },
-   "lead": "3–5",
+   "lead": "4–6",
    "ds": "https://www.supmeaauto.com/uploads-lm/2505/sup-lugb-c-vortex-flow-meter-datasheet-2977.pdf"
   },
   {
@@ -1083,7 +1083,7 @@
      "Clamp-on transducers"
     ]
    },
-   "lead": "3–5",
+   "lead": "4–6",
    "ds": "https://www.supmeaauto.com/uploads-lm/2407/24072304484299630.pdf"
   },
   {
@@ -1106,7 +1106,7 @@
      "Clamp-on transducers"
     ]
    },
-   "lead": "3–5",
+   "lead": "4–6",
    "ds": "https://www.supmeaauto.com/uploads-lm/2611/fsc400-wall-mounted-ultrasonic-flow-meter-datasheet.pdf"
   },
   {
@@ -1129,7 +1129,7 @@
      "Submerged sensor"
     ]
    },
-   "lead": "3–5",
+   "lead": "4–6",
    "ds": "https://www.supmeaauto.com/uploads-lm/2611/fsd300-ultrasonic-doppler-flow-meter-datasheet.pdf"
   },
   {
@@ -1152,7 +1152,7 @@
      "Thread"
     ]
    },
-   "lead": "3–5",
+   "lead": "4–6",
    "ds": "https://www.supmeaauto.com/uploads-lm/2611/ftm210-micro-gas-mass-flow-meter-datasheet.pdf"
   },
   {
@@ -1175,7 +1175,7 @@
      "Thread"
     ]
    },
-   "lead": "3–5",
+   "lead": "4–6",
    "ds": "https://www.supmeaauto.com/uploads-lm/2611/flm200-miniature-turbine-flow-meter-datasheet.pdf"
   },
   {
@@ -1200,7 +1200,7 @@
      "Flange"
     ]
    },
-   "lead": "3–5",
+   "lead": "4–6",
    "ds": "https://www.supmeaauto.com/uploads-lm/2611/flc420_datasheet.pdf"
   },
   {
@@ -1224,7 +1224,7 @@
      "Flange"
     ]
    },
-   "lead": "3–5",
+   "lead": "4–6",
    "ds": "https://www.supmeaauto.com/uploads-lm/2505/fvm200-miniature-vortex-flowmeter-datasheet.pdf"
   },
   {
@@ -1252,7 +1252,7 @@
      "Flange ASME"
     ]
    },
-   "lead": "3–5"
+   "lead": "4–6"
   },
   {
    "m": "SUP-RD906",
@@ -1279,7 +1279,7 @@
      "Flange ASME"
     ]
    },
-   "lead": "3–5"
+   "lead": "4–6"
   },
   {
    "m": "SUP-RD908",
@@ -1306,7 +1306,7 @@
      "Flange ASME"
     ]
    },
-   "lead": "3–5"
+   "lead": "4–6"
   },
   {
    "m": "SUP-RD909",
@@ -1333,7 +1333,7 @@
      "Flange ASME"
     ]
    },
-   "lead": "3–5"
+   "lead": "4–6"
   },
   {
    "m": "SUP-RD905",
@@ -1360,7 +1360,7 @@
      "Flange ASME"
     ]
    },
-   "lead": "3–5"
+   "lead": "4–6"
   },
   {
    "m": "SUP-ZP",
@@ -1387,7 +1387,7 @@
      "Thread"
     ]
    },
-   "lead": "3–5"
+   "lead": "4–6"
   },
   {
    "m": "SUP-JFC",
@@ -1412,7 +1412,7 @@
      "Submerged probe"
     ]
    },
-   "lead": "3–5"
+   "lead": "4–6"
   },
   {
    "m": "SUP-ZPM",
@@ -1437,7 +1437,7 @@
      "Thread"
     ]
    },
-   "lead": "3–5"
+   "lead": "4–6"
   },
   {
    "m": "SUP-RTX2400-G",
@@ -1462,7 +1462,7 @@
      "G½"
     ]
    },
-   "lead": "3–5"
+   "lead": "4–6"
   },
   {
    "m": "SUP-RTX2300-A",
@@ -1487,7 +1487,7 @@
      "G½"
     ]
    },
-   "lead": "3–5"
+   "lead": "4–6"
   },
   {
    "m": "SUP-RTX2400-K",
@@ -1512,7 +1512,7 @@
      "G½"
     ]
    },
-   "lead": "3–5"
+   "lead": "4–6"
   },
   {
    "m": "SUP-PD500",
@@ -1537,7 +1537,7 @@
      "G½"
     ]
    },
-   "lead": "3–5"
+   "lead": "4–6"
   },
   {
    "m": "SUP-TBY100",
@@ -1562,7 +1562,7 @@
      "½\" NPT"
     ]
    },
-   "lead": "3–5"
+   "lead": "4–6"
   },
   {
    "m": "SUP-PH6.8",
@@ -1587,7 +1587,7 @@
      "Controller only"
     ]
    },
-   "lead": "3–5"
+   "lead": "4–6"
   },
   {
    "m": "SUP-PH8.5",
@@ -1612,7 +1612,7 @@
      "Controller only"
     ]
    },
-   "lead": "3–5"
+   "lead": "4–6"
   },
   {
    "m": "SUP-DC-P2",
@@ -1637,7 +1637,7 @@
      "Controller only"
     ]
    },
-   "lead": "3–5"
+   "lead": "4–6"
   },
   {
    "m": "SUP-PH163S",
@@ -1662,7 +1662,7 @@
      "Controller only"
     ]
    },
-   "lead": "3–5"
+   "lead": "4–6"
   },
   {
    "m": "SUP-ASP2110",
@@ -1686,7 +1686,7 @@
      "In-line"
     ]
    },
-   "lead": "3–5"
+   "lead": "4–6"
   },
   {
    "m": "SUP-R8000D",
@@ -1712,7 +1712,7 @@
      "Panel mount"
     ]
    },
-   "lead": "3–5"
+   "lead": "4–6"
   },
   {
    "m": "SUP-R4000D",
@@ -1738,7 +1738,7 @@
      "Panel mount"
     ]
    },
-   "lead": "3–5"
+   "lead": "4–6"
   },
   {
    "m": "SUP-R1000",
@@ -1763,7 +1763,7 @@
      "Panel mount"
     ]
    },
-   "lead": "3–5"
+   "lead": "4–6"
   }
  ],
  "sourcing": [

@@ -309,3 +309,4 @@ html[lang="ar"] .count,html[lang="ar"] .resbar .count{font-family:var(--f-body);
 @media (max-width:620px){.pic .ph svg{width:36px;height:36px}.pic .ph em{font-size:15px}.prod .act{margin:0}}
 .tg{white-space:nowrap}.tags{align-items:center}
 .prod .pb .spec{grid-template-columns:1fr;gap:3px}
+.repb{position:absolute;bottom:8px;inset-inline-start:8px;font-size:10.5px;background:rgba(7,19,31,.75);color:#fff;padding:2px 7px;border-radius:6px}

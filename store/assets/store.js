@@ -15,10 +15,10 @@
       'n:bld:bms': 'Desigo automation stations, TX-I/O modules and BMS accessories in our Baghdad warehouse.',
       'n:bld:knx': 'Siemens KNX devices in our Baghdad warehouse.', 'n:bld:fire': 'Fire detectors, bases, manual call points, sounders and modules in our Baghdad warehouse.',
       'n:bld:ins': 'Room, duct and flow devices for HVAC and building services — stock items plus Supmea instruments for chilled-water, energy and tank monitoring.',
-      avail: '{n} in stock', import: 'Import · {w} weeks', srcAvail: 'On request · 1–3 weeks',
+      avail: '{n} in stock', import: '{w} weeks delivery', srcAvail: 'On request · 1–3 weeks',
       add: 'Add to RFQ', results: '{n} items', none: 'No items match your search.', noneHint: 'Send the part number anyway — we source legacy and hard-to-find parts.', reqThis: 'Request “{q}”',
       clear: 'Clear filters', fAv: 'Availability', fType: 'Product type', fBrand: 'Brand', fCond: 'Condition',
-      stock: 'In stock (Baghdad)', supmea: 'Import (Supmea)', spare: 'Sourced on request',
+      stock: 'In stock (Baghdad)', repPic: 'Representative picture', supmea: '4–6 weeks delivery', spare: 'Sourced on request',
       new: 'New', used: 'Used / old stock', ref: 'Refurbished', active: 'Active', phase: 'Phase-out', disc: 'Discontinued', tbc: 'Lifecycle TBC',
       coo: 'Country of origin', hs: 'HS code', code: 'IES item code', succ: 'Successor', qty: 'Quantity', mfr: 'Manufacturer', cat: 'Category', price: 'Price', onQuote: 'In quotation',
       configure: 'Configure & add', range: 'Range / size', out: 'Output', conn: 'Process connection', notes: 'Notes (medium, temperature, number of tags…)',
@@ -42,10 +42,10 @@
       'n:bld:bms': 'محطات Desigo ووحدات TX-I/O وملحقات أنظمة إدارة المباني في مخزننا في بغداد.',
       'n:bld:knx': 'أجهزة KNX من سيمنس في مخزننا في بغداد.', 'n:bld:fire': 'كواشف وقواعد ونقاط إنذار يدوية وصفارات ووحدات إنذار الحريق في مخزننا في بغداد.',
       'n:bld:ins': 'حساسات الغرف ومجاري الهواء ومفاتيح الجريان لأنظمة التكييف والخدمات، مع أجهزة Supmea لقياس المياه المبردة والطاقة والخزانات.',
-      avail: 'متوفر {n}', import: 'استيراد · {w} أسابيع', srcAvail: 'حسب الطلب · 1–3 أسابيع',
+      avail: 'متوفر {n}', import: 'التوريد خلال {w} أسابيع', srcAvail: 'حسب الطلب · 1–3 أسابيع',
       add: 'أضف إلى الطلب', results: '{n} مادة', none: 'لا توجد مواد مطابقة لبحثك.', noneHint: 'أرسل رقم القطعة على أي حال — نوفّر القطع القديمة والنادرة.', reqThis: 'اطلب «{q}»',
       clear: 'مسح الفلاتر', fAv: 'التوفر', fType: 'نوع المنتج', fBrand: 'العلامة التجارية', fCond: 'الحالة',
-      stock: 'متوفر في بغداد', supmea: 'استيراد (Supmea)', spare: 'يُوفَّر حسب الطلب',
+      stock: 'متوفر في بغداد', repPic: 'صورة تمثيلية', supmea: 'التوريد خلال 4–6 أسابيع', spare: 'يُوفَّر حسب الطلب',
       new: 'جديد', used: 'مستعمل / مخزون قديم', ref: 'مجدد', active: 'فعال', phase: 'قيد الإيقاف', disc: 'متوقف إنتاجه', tbc: 'دورة الحياة قيد التأكيد',
       coo: 'بلد المنشأ', hs: 'رمز HS', code: 'رمز المادة في IES', succ: 'البديل', qty: 'الكمية', mfr: 'الشركة المصنعة', cat: 'الفئة', price: 'السعر', onQuote: 'ضمن عرض السعر',
       configure: 'اختر المواصفات وأضف', range: 'المدى / القياس', out: 'الإشارة الخارجة', conn: 'التوصيل', notes: 'ملاحظات (المادة المقاسة، الحرارة، عدد الأجهزة…)',
@@ -126,7 +126,7 @@
   function pic(it, cls) {
     return '<button class="pic ' + (cls || '') + '" type="button" data-open="' + esc(it.k) + '" aria-label="' + esc(it.pn) + '">' +
       (it.img ? '<img src="' + BASE + esc(it.img) + '" alt="' + esc(it.mfr + ' ' + it.pn) + '" loading="lazy" decoding="async">' : '<span class="ph">' + ico(it.t) + '<em>' + esc(it.mfr) + '</em><small class="ltr">' + esc(it.pn) + '</small></span>') +
-      (it.eval ? '<span class="eval">' + T('eval') + '</span>' : '') + '</button>';
+      (it.eval ? '<span class="eval">' + T('eval') + '</span>' : '') + (it.rep && it.img ? '<span class="repb">' + T('repPic') + '</span>' : '') + '</button>';
   }
   function avail(it) {
     if (it.src === 'stock') return '<span class="av"><i></i>' + T('avail', { n: it.qty }) + '</span>';
@@ -166,7 +166,7 @@
     $('#facetBox').innerHTML = defs.map(function (d) {
       var c = {}; b.forEach(function (it) { if (it[d[0]] != null && it[d[0]] !== '') c[it[d[0]]] = (c[it[d[0]]] || 0) + 1; });
       var keys = (d[2] || Object.keys(c).sort(function (x, y) { return c[y] - c[x]; })).filter(function (v) { return c[v]; });
-      if (keys.length < 2 && !Object.keys(st.f[d[0]]).length) return '';
+      if (d[0] !== 'src' && keys.length < 2 && !Object.keys(st.f[d[0]]).length) return '';
       return '<div class="facet"><h4>' + d[1] + '</h4>' + keys.map(function (v) {
         return '<label><input type="checkbox" data-f="' + d[0] + '" value="' + esc(v) + '"' + (st.f[d[0]][v] ? ' checked' : '') + '><span>' + esc(d[3](v)) + '</span><em>' + c[v] + '</em></label>';
       }).join('') + '</div>';
